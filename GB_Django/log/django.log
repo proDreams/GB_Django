@@ -1,0 +1,38 @@
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 27
+C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\settings.py changed, reloading.
+INFO 2023-08-28 14:15:05,425 autoreload 18756 12300 Watching for file changes with StatReloader
+ERROR 2023-08-28 14:15:12,364 views 18756 26680 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-28 14:15:12,365 basehttp 18756 26680 "GET /about/ HTTP/1.1" 200 27
