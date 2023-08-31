@@ -36,3 +36,27 @@ Traceback (most recent call last):
              ~~^~~
 ZeroDivisionError: division by zero
 INFO 2023-08-28 14:15:12,365 basehttp 18756 26680 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-08-31 07:14:48,119 autoreload 5100 25928 Watching for file changes with StatReloader
+WARNING 2023-08-31 07:14:49,986 log 5100 19416 Not Found: /
+WARNING 2023-08-31 07:14:49,987 basehttp 5100 19416 "GET / HTTP/1.1" 404 2281
+WARNING 2023-08-31 07:14:50,142 log 5100 19416 Not Found: /favicon.ico
+WARNING 2023-08-31 07:14:50,143 basehttp 5100 19416 "GET /favicon.ico HTTP/1.1" 404 2332
+INFO 2023-08-31 07:14:54,788 basehttp 5100 19416 "GET /homeworks HTTP/1.1" 301 0
+ERROR 2023-08-31 07:14:54,843 log 5100 30412 Internal Server Error: /homeworks/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-08-31 07:14:54,844 basehttp 5100 30412 "GET /homeworks/ HTTP/1.1" 500 74467
+INFO 2023-08-31 07:15:50,494 autoreload 5100 25928 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-08-31 07:15:50,912 autoreload 3324 408 Watching for file changes with StatReloader
+INFO 2023-08-31 07:15:52,661 basehttp 3324 11160 "GET /homeworks/ HTTP/1.1" 200 41
+INFO 2023-08-31 07:15:58,370 basehttp 3324 11160 "GET /homeworks/about HTTP/1.1" 301 0
+INFO 2023-08-31 07:15:58,376 basehttp 3324 25376 "GET /homeworks/about/ HTTP/1.1" 200 40
