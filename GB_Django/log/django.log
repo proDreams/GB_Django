@@ -60,3 +60,222 @@ INFO 2023-08-31 07:15:50,912 autoreload 3324 408 Watching for file changes with 
 INFO 2023-08-31 07:15:52,661 basehttp 3324 11160 "GET /homeworks/ HTTP/1.1" 200 41
 INFO 2023-08-31 07:15:58,370 basehttp 3324 11160 "GET /homeworks/about HTTP/1.1" 301 0
 INFO 2023-08-31 07:15:58,376 basehttp 3324 25376 "GET /homeworks/about/ HTTP/1.1" 200 40
+INFO 2023-08-31 20:21:54,517 autoreload 22836 11052 Watching for file changes with StatReloader
+INFO 2023-08-31 20:22:05,720 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:08,351 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:09,203 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:10,071 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:11,071 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:12,096 basehttp 22836 35304 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:22:17,383 basehttp 22836 35304 "GET /last HTTP/1.1" 301 0
+ERROR 2023-08-31 20:22:17,431 log 22836 30124 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 19, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via GameModel instances
+ERROR 2023-08-31 20:22:17,432 basehttp 22836 30124 "GET /last/ HTTP/1.1" 500 79664
+ERROR 2023-08-31 20:23:01,907 log 22836 30124 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 19, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via GameModel instances
+ERROR 2023-08-31 20:23:01,908 basehttp 22836 30124 "GET /last/ HTTP/1.1" 500 79801
+ERROR 2023-08-31 20:23:03,497 log 22836 30124 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 19, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via GameModel instances
+ERROR 2023-08-31 20:23:03,499 basehttp 22836 30124 "GET /last/ HTTP/1.1" 500 79801
+INFO 2023-08-31 20:23:06,127 autoreload 22836 11052 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:23:06,557 autoreload 23712 28792 Watching for file changes with StatReloader
+INFO 2023-08-31 20:23:09,678 basehttp 23712 34120 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-08-31 20:23:39,885 basehttp 23712 34120 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-08-31 20:23:43,497 autoreload 23712 28792 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:23:43,935 autoreload 22584 28084 Watching for file changes with StatReloader
+ERROR 2023-08-31 20:23:45,334 log 22584 33832 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 21, in last_games
+    return HttpResponse('<br>'.join(last))
+                        ^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-08-31 20:23:45,335 basehttp 22584 33832 "GET /last/ HTTP/1.1" 500 73312
+INFO 2023-08-31 20:24:41,196 autoreload 22584 28084 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:24:41,672 autoreload 35632 1760 Watching for file changes with StatReloader
+ERROR 2023-08-31 20:24:43,673 log 35632 35188 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 21, in last_games
+    return HttpResponse(*last, sep='\n')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'sep'
+ERROR 2023-08-31 20:24:43,675 basehttp 35632 35188 "GET /last/ HTTP/1.1" 500 78376
+ERROR 2023-08-31 20:25:54,811 log 35632 35188 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 21, in last_games
+    return HttpResponse(*last, sep='\n')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'sep'
+ERROR 2023-08-31 20:25:54,812 basehttp 35632 35188 "GET /last/ HTTP/1.1" 500 78376
+INFO 2023-08-31 20:25:57,245 autoreload 35632 1760 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:25:57,711 autoreload 27500 29468 Watching for file changes with StatReloader
+ERROR 2023-08-31 20:25:59,293 log 27500 32576 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 20, in last_games
+    last_str = '\n'.join(last)
+               ^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-08-31 20:25:59,295 basehttp 27500 32576 "GET /last/ HTTP/1.1" 500 73548
+INFO 2023-08-31 20:26:13,349 autoreload 27500 29468 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:26:13,799 autoreload 3700 29148 Watching for file changes with StatReloader
+ERROR 2023-08-31 20:26:15,221 log 3700 34872 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 20, in last_games
+    last_str = last + '\n'
+               ~~~~~^~~~~~
+TypeError: unsupported operand type(s) for +: 'QuerySet' and 'str'
+ERROR 2023-08-31 20:26:15,222 basehttp 3700 34872 "GET /last/ HTTP/1.1" 500 73612
+INFO 2023-08-31 20:26:29,404 autoreload 3700 29148 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:26:29,855 autoreload 21716 15772 Watching for file changes with StatReloader
+INFO 2023-08-31 20:26:31,376 basehttp 21716 26508 "GET /last/ HTTP/1.1" 200 487
+INFO 2023-08-31 20:27:22,037 autoreload 21716 15772 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:27:22,491 autoreload 28184 20928 Watching for file changes with StatReloader
+INFO 2023-08-31 20:27:23,009 basehttp 28184 28728 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-08-31 20:27:32,139 basehttp 28184 28728 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:27:32,830 basehttp 28184 28728 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:27:33,573 basehttp 28184 28728 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 20:27:37,995 basehttp 28184 28728 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-08-31 20:28:05,432 autoreload 28184 20928 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:28:05,920 autoreload 22776 30552 Watching for file changes with StatReloader
+ERROR 2023-08-31 20:28:06,484 log 22776 27264 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 19, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[-n:]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-08-31 20:28:06,486 basehttp 22776 27264 "GET /last/ HTTP/1.1" 500 80960
+ERROR 2023-08-31 20:28:07,610 log 22776 27264 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py", line 19, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[-n:]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-08-31 20:28:07,612 basehttp 22776 27264 "GET /last/ HTTP/1.1" 500 80960
+INFO 2023-08-31 20:28:40,740 autoreload 22776 30552 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:28:41,177 autoreload 25420 11360 Watching for file changes with StatReloader
+INFO 2023-08-31 20:28:42,786 basehttp 25420 24508 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-08-31 20:30:02,788 autoreload 25420 11360 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:30:03,242 autoreload 25668 34692 Watching for file changes with StatReloader
+INFO 2023-08-31 20:30:21,677 autoreload 25668 34692 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:30:22,153 autoreload 3220 35224 Watching for file changes with StatReloader
+INFO 2023-08-31 20:30:23,502 autoreload 3220 35224 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:30:23,960 autoreload 34516 35736 Watching for file changes with StatReloader
+INFO 2023-08-31 20:30:34,392 autoreload 34516 35736 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:30:34,803 autoreload 34440 30516 Watching for file changes with StatReloader
+INFO 2023-08-31 20:30:53,338 autoreload 34440 30516 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:30:53,769 autoreload 22284 20372 Watching for file changes with StatReloader
+INFO 2023-08-31 20:31:10,286 autoreload 22284 20372 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:31:10,726 autoreload 22012 15344 Watching for file changes with StatReloader
+INFO 2023-08-31 20:31:40,444 autoreload 22012 15344 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:31:40,873 autoreload 7260 23512 Watching for file changes with StatReloader
+INFO 2023-08-31 20:38:44,341 autoreload 7260 23512 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 20:38:44,771 autoreload 24348 30936 Watching for file changes with StatReloader
+INFO 2023-08-31 20:59:43,562 autoreload 24348 30936 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-08-31 20:59:44,029 autoreload 29400 31844 Watching for file changes with StatReloader
+INFO 2023-08-31 21:00:21,866 autoreload 29400 31844 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-08-31 21:00:22,338 autoreload 6440 27364 Watching for file changes with StatReloader
+INFO 2023-08-31 21:00:39,882 autoreload 6440 27364 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-08-31 21:00:40,317 autoreload 1808 32336 Watching for file changes with StatReloader
+INFO 2023-08-31 21:17:21,122 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 21:17:25,218 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
+INFO 2023-08-31 21:17:25,964 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
