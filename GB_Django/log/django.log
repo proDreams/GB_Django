@@ -279,3 +279,642 @@ INFO 2023-08-31 21:00:40,317 autoreload 1808 32336 Watching for file changes wit
 INFO 2023-08-31 21:17:21,122 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
 INFO 2023-08-31 21:17:25,218 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
 INFO 2023-08-31 21:17:25,964 basehttp 1808 30844 "GET / HTTP/1.1" 200 80
+INFO 2023-09-04 22:18:02,968 autoreload 34932 12840 Watching for file changes with StatReloader
+INFO 2023-09-04 22:18:04,304 basehttp 34932 34888 "GET / HTTP/1.1" 200 352
+INFO 2023-09-04 22:18:30,020 basehttp 34932 34888 "GET / HTTP/1.1" 200 405
+INFO 2023-09-04 22:18:35,991 basehttp 34932 34888 "GET /about HTTP/1.1" 301 0
+INFO 2023-09-04 22:18:35,996 basehttp 34932 30076 "GET /about/ HTTP/1.1" 200 400
+INFO 2023-09-04 23:05:54,715 autoreload 34932 12840 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:05:55,190 autoreload 4020 18804 Watching for file changes with StatReloader
+INFO 2023-09-04 23:05:58,368 autoreload 15128 34836 Watching for file changes with StatReloader
+INFO 2023-09-04 23:06:14,157 basehttp 15128 17100 "GET / HTTP/1.1" 200 405
+INFO 2023-09-04 23:07:00,739 autoreload 19856 32548 Watching for file changes with StatReloader
+INFO 2023-09-04 23:07:16,148 basehttp 19856 18828 "GET / HTTP/1.1" 200 405
+WARNING 2023-09-04 23:07:23,135 log 19856 18828 Not Found: /dice_game
+WARNING 2023-09-04 23:07:23,136 basehttp 19856 18828 "GET /dice_game HTTP/1.1" 404 3547
+INFO 2023-09-04 23:07:29,224 basehttp 19856 18828 "GET /dice_game/5 HTTP/1.1" 200 493
+INFO 2023-09-04 23:07:37,617 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:07:41,393 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:07:42,547 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:07:43,699 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:07:45,283 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:07:46,180 basehttp 19856 18828 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:31,789 autoreload 19856 32548 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:08:32,280 autoreload 12284 31100 Watching for file changes with StatReloader
+INFO 2023-09-04 23:08:34,868 basehttp 12284 20464 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:35,563 basehttp 12284 20464 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:36,004 basehttp 12284 20464 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:36,412 basehttp 12284 20464 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:36,844 basehttp 12284 20464 "GET /heads_game/5 HTTP/1.1" 200 537
+INFO 2023-09-04 23:08:51,001 autoreload 12284 31100 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:08:51,497 autoreload 22312 32444 Watching for file changes with StatReloader
+INFO 2023-09-04 23:13:51,436 autoreload 22312 32444 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:13:51,895 autoreload 1820 6332 Watching for file changes with StatReloader
+INFO 2023-09-04 23:14:13,411 autoreload 1820 6332 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:14:13,891 autoreload 20588 34308 Watching for file changes with StatReloader
+INFO 2023-09-04 23:15:02,702 autoreload 20588 34308 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:15:03,195 autoreload 30976 8460 Watching for file changes with StatReloader
+INFO 2023-09-04 23:16:17,390 autoreload 30976 8460 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:16:17,861 autoreload 8688 27432 Watching for file changes with StatReloader
+INFO 2023-09-04 23:16:56,779 autoreload 8688 27432 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:16:57,250 autoreload 2844 22596 Watching for file changes with StatReloader
+INFO 2023-09-04 23:18:22,863 autoreload 2844 22596 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:18:23,503 autoreload 23324 28132 Watching for file changes with StatReloader
+INFO 2023-09-04 23:23:48,059 autoreload 23324 28132 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 23:23:48,533 autoreload 26156 11000 Watching for file changes with StatReloader
+INFO 2023-09-04 23:25:04,018 autoreload 26156 11000 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:25:04,507 autoreload 4536 22768 Watching for file changes with StatReloader
+INFO 2023-09-04 23:25:05,718 basehttp 4536 26064 "GET / HTTP/1.1" 200 405
+INFO 2023-09-04 23:25:35,491 autoreload 4536 22768 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 23:25:35,937 autoreload 27944 28188 Watching for file changes with StatReloader
+INFO 2023-09-04 23:27:17,601 basehttp 27944 17356 "GET /articles/1 HTTP/1.1" 200 687
+INFO 2023-09-04 23:27:20,878 basehttp 27944 17356 "GET /articles/2 HTTP/1.1" 200 687
+INFO 2023-09-04 23:28:23,941 basehttp 27944 17356 "GET /articles/2 HTTP/1.1" 200 963
+INFO 2023-09-04 23:28:38,110 basehttp 27944 17356 "GET /articles/2 HTTP/1.1" 200 963
+INFO 2023-09-04 23:28:39,517 basehttp 27944 17356 "GET /articles/2 HTTP/1.1" 200 850
+INFO 2023-09-04 23:28:40,590 basehttp 27944 17356 "GET /articles/2 HTTP/1.1" 200 850
+INFO 2023-09-04 23:28:47,229 basehttp 27944 17356 "GET /articles/1 HTTP/1.1" 200 850
+WARNING 2023-09-04 23:37:17,241 basehttp 27944 25980 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2023-09-04 23:37:17,246 log 27944 5160 Not Found: /pictures/course_image/x1630324385.jpg.pagespeed.ic.QuryueLrgk.webp
+WARNING 2023-09-04 23:37:17,247 basehttp 27944 5160 "GET /pictures/course_image/x1630324385.jpg.pagespeed.ic.QuryueLrgk.webp HTTP/1.1" 404 3905
+WARNING 2023-09-04 23:37:17,278 log 27944 5160 Not Found: /pictures/course_image/x1621164792.jpg.pagespeed.ic.kFg85pUj8-.jpeg
+WARNING 2023-09-04 23:37:17,280 log 27944 2264 Not Found: /pictures/course_image/x1623566752.jpg.pagespeed.ic.ymfXGwxqvy.webp
+WARNING 2023-09-04 23:37:17,280 basehttp 27944 5160 "GET /pictures/course_image/x1621164792.jpg.pagespeed.ic.kFg85pUj8-.jpeg HTTP/1.1" 404 3905
+WARNING 2023-09-04 23:37:17,280 basehttp 27944 2264 "GET /pictures/course_image/x1623566752.jpg.pagespeed.ic.ymfXGwxqvy.webp HTTP/1.1" 404 3905
+WARNING 2023-09-04 23:37:17,306 log 27944 2264 Not Found: /favicon.ico
+WARNING 2023-09-04 23:37:17,306 basehttp 27944 2264 "GET /favicon.ico HTTP/1.1" 404 3740
+INFO 2023-09-04 23:37:17,317 basehttp 27944 22428 "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 4291
+INFO 2023-09-04 23:37:17,346 basehttp 27944 22428 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,358 basehttp 27944 2264 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,358 basehttp 27944 22428 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,363 basehttp 27944 22428 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,366 basehttp 27944 22428 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,366 basehttp 27944 2264 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-04 23:37:17,369 basehttp 27944 2264 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-04 23:38:25,797 autoreload 27944 28188 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:38:26,274 autoreload 11404 34340 Watching for file changes with StatReloader
+INFO 2023-09-04 23:38:32,347 autoreload 20504 28584 Watching for file changes with StatReloader
+INFO 2023-09-04 23:38:45,838 basehttp 20504 35532 "GET /articles/1 HTTP/1.1" 200 844
+INFO 2023-09-04 23:38:47,773 basehttp 20504 35532 "GET /articles/1 HTTP/1.1" 200 844
+INFO 2023-09-04 23:38:59,169 autoreload 20504 28584 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:38:59,645 autoreload 33616 16768 Watching for file changes with StatReloader
+INFO 2023-09-04 23:40:00,899 autoreload 33616 16768 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:40:01,387 autoreload 20704 20168 Watching for file changes with StatReloader
+INFO 2023-09-04 23:40:11,824 autoreload 20704 20168 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:40:12,297 autoreload 34288 34924 Watching for file changes with StatReloader
+INFO 2023-09-04 23:40:26,797 autoreload 34288 34924 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:40:27,249 autoreload 8380 10436 Watching for file changes with StatReloader
+INFO 2023-09-04 23:40:34,985 basehttp 8380 29592 "GET /articles/1 HTTP/1.1" 200 844
+INFO 2023-09-04 23:41:02,145 basehttp 8380 29592 "GET /articles/2 HTTP/1.1" 200 844
+INFO 2023-09-04 23:41:10,332 autoreload 8380 10436 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:41:10,766 autoreload 33060 31116 Watching for file changes with StatReloader
+INFO 2023-09-04 23:42:40,500 autoreload 33060 31116 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:42:40,988 autoreload 29208 19544 Watching for file changes with StatReloader
+INFO 2023-09-04 23:43:58,507 autoreload 29208 19544 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:43:58,979 autoreload 27300 30992 Watching for file changes with StatReloader
+INFO 2023-09-04 23:49:29,544 autoreload 27300 30992 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:49:30,057 autoreload 17228 14884 Watching for file changes with StatReloader
+INFO 2023-09-04 23:50:25,246 autoreload 17228 14884 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:50:25,716 autoreload 21124 30204 Watching for file changes with StatReloader
+INFO 2023-09-04 23:51:44,237 autoreload 21124 30204 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-04 23:51:44,823 autoreload 14532 32408 Watching for file changes with StatReloader
+INFO 2023-09-04 23:53:24,742 autoreload 14532 32408 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\urls.py changed, reloading.
+INFO 2023-09-04 23:53:25,217 autoreload 22316 27784 Watching for file changes with StatReloader
+INFO 2023-09-04 23:53:40,239 autoreload 16348 33860 Watching for file changes with StatReloader
+ERROR 2023-09-04 23:54:11,446 log 16348 27620 Internal Server Error: /articles/2
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' 'article_page' post.pk' from 'url 'article_page' post.pk'
+ERROR 2023-09-04 23:54:11,451 basehttp 16348 27620 "GET /articles/2 HTTP/1.1" 500 216884
+ERROR 2023-09-04 23:54:29,772 log 16348 27620 Internal Server Error: /articles/2
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_page' not found. 'article_page' is not a valid view function or pattern name.
+ERROR 2023-09-04 23:54:29,775 basehttp 16348 27620 "GET /articles/2 HTTP/1.1" 500 201283
+ERROR 2023-09-04 23:54:30,816 log 16348 27620 Internal Server Error: /articles/2
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_page' not found. 'article_page' is not a valid view function or pattern name.
+ERROR 2023-09-04 23:54:30,819 basehttp 16348 27620 "GET /articles/2 HTTP/1.1" 500 201283
+INFO 2023-09-04 23:55:05,202 basehttp 16348 27620 "GET /article/2 HTTP/1.1" 200 344
+WARNING 2023-09-04 23:55:10,096 log 16348 27620 Not Found: /articles
+WARNING 2023-09-04 23:55:10,097 basehttp 16348 27620 "GET /articles HTTP/1.1" 404 3921
+ERROR 2023-09-04 23:55:13,050 log 16348 27620 Internal Server Error: /articles/1
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_page' not found. 'article_page' is not a valid view function or pattern name.
+ERROR 2023-09-04 23:55:13,053 basehttp 16348 27620 "GET /articles/1 HTTP/1.1" 500 201008
+INFO 2023-09-04 23:57:42,762 autoreload 16348 33860 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-04 23:57:43,270 autoreload 34340 9920 Watching for file changes with StatReloader
+ERROR 2023-09-04 23:57:43,667 log 34340 33348 Internal Server Error: /articles/1
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_page' not found. 'article_page' is not a valid view function or pattern name.
+ERROR 2023-09-04 23:57:43,672 basehttp 34340 33348 "GET /articles/1 HTTP/1.1" 500 201145
+ERROR 2023-09-04 23:57:44,801 log 34340 33348 Internal Server Error: /articles/1
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_page' not found. 'article_page' is not a valid view function or pattern name.
+ERROR 2023-09-04 23:57:44,805 basehttp 34340 33348 "GET /articles/1 HTTP/1.1" 500 201145
+INFO 2023-09-04 23:58:31,077 basehttp 34340 33348 "GET /articles/1 HTTP/1.1" 200 873
+INFO 2023-09-04 23:58:33,359 basehttp 34340 33348 "GET /article/1 HTTP/1.1" 200 344
+INFO 2023-09-04 23:58:35,054 basehttp 34340 33348 "GET /article/16 HTTP/1.1" 200 344
+INFO 2023-09-04 23:58:38,477 basehttp 34340 33348 "GET /article/21 HTTP/1.1" 200 344
+INFO 2023-09-05 00:02:11,898 autoreload 34340 9920 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-05 00:02:12,372 autoreload 21736 33448 Watching for file changes with StatReloader
+INFO 2023-09-05 00:02:14,019 basehttp 21736 28200 "GET /articles/1 HTTP/1.1" 200 873
+INFO 2023-09-05 00:02:15,179 basehttp 21736 28200 "GET /article/1 HTTP/1.1" 200 344
+INFO 2023-09-05 00:02:16,363 basehttp 21736 28200 "GET /articles/1 HTTP/1.1" 200 873
+INFO 2023-09-05 00:02:16,837 basehttp 21736 28200 "GET /article/1 HTTP/1.1" 200 344
+INFO 2023-09-05 00:08:53,087 autoreload 21736 33448 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-05 00:08:53,578 autoreload 33344 29424 Watching for file changes with StatReloader
