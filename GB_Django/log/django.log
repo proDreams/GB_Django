@@ -918,3 +918,534 @@ INFO 2023-09-05 00:02:16,363 basehttp 21736 28200 "GET /articles/1 HTTP/1.1" 200
 INFO 2023-09-05 00:02:16,837 basehttp 21736 28200 "GET /article/1 HTTP/1.1" 200 344
 INFO 2023-09-05 00:08:53,087 autoreload 21736 33448 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
 INFO 2023-09-05 00:08:53,578 autoreload 33344 29424 Watching for file changes with StatReloader
+INFO 2023-09-07 17:41:51,640 autoreload 18992 33832 Watching for file changes with StatReloader
+INFO 2023-09-07 17:41:53,242 basehttp 18992 32104 "GET / HTTP/1.1" 200 405
+WARNING 2023-09-07 17:42:01,109 log 18992 32104 Not Found: /user_form
+WARNING 2023-09-07 17:42:01,110 basehttp 18992 32104 "GET /user_form HTTP/1.1" 404 3924
+WARNING 2023-09-07 17:42:12,373 log 18992 32104 Not Found: /lectures/user_form
+WARNING 2023-09-07 17:42:12,374 basehttp 18992 32104 "GET /lectures/user_form HTTP/1.1" 404 4371
+INFO 2023-09-07 17:42:24,559 basehttp 18992 32104 "GET /lectures/user_add HTTP/1.1" 301 0
+INFO 2023-09-07 17:42:24,606 basehttp 18992 33140 "GET /lectures/user_add/ HTTP/1.1" 200 881
+INFO 2023-09-07 17:42:28,629 autoreload 18992 33832 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\urls.py changed, reloading.
+INFO 2023-09-07 17:42:29,113 autoreload 22168 24260 Watching for file changes with StatReloader
+INFO 2023-09-07 17:42:31,064 basehttp 22168 17996 "GET /lectures/user_form/ HTTP/1.1" 200 881
+INFO 2023-09-07 18:35:40,896 basehttp 22168 7016 "GET /lectures/user_form/ HTTP/1.1" 200 1119
+INFO 2023-09-07 18:41:56,219 views 22168 10684 Получили name='123', email='sushkoos@gmail.com', age=24
+ERROR 2023-09-07 18:41:56,272 log 22168 10684 Internal Server Error: /lectures/user_form/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lecture_app.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-07 18:41:56,273 basehttp 22168 10684 "POST /lectures/user_form/ HTTP/1.1" 500 77296
+INFO 2023-09-07 18:42:20,368 basehttp 22168 10684 "GET /lectures/user_form/ HTTP/1.1" 200 992
+INFO 2023-09-07 18:42:20,458 autoreload 22168 24260 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 18:42:20,934 autoreload 21788 27204 Watching for file changes with StatReloader
+INFO 2023-09-07 18:42:21,197 basehttp 21788 27804 "GET /lectures/user_form/ HTTP/1.1" 200 992
+INFO 2023-09-07 18:45:54,536 autoreload 21788 27204 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 18:45:54,976 autoreload 37744 2184 Watching for file changes with StatReloader
+INFO 2023-09-07 18:47:21,579 autoreload 37744 2184 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 18:47:22,051 autoreload 34868 22204 Watching for file changes with StatReloader
+INFO 2023-09-07 18:49:39,618 autoreload 34868 22204 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 18:49:40,063 autoreload 8424 32400 Watching for file changes with StatReloader
+WARNING 2023-09-07 18:49:44,510 log 8424 37776 Not Found: /lectures/many_fields_form/
+WARNING 2023-09-07 18:49:44,510 basehttp 8424 37776 "GET /lectures/many_fields_form/ HTTP/1.1" 404 4396
+INFO 2023-09-07 18:49:58,736 autoreload 8424 32400 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\urls.py changed, reloading.
+INFO 2023-09-07 18:49:59,158 autoreload 27500 11068 Watching for file changes with StatReloader
+INFO 2023-09-07 18:50:00,553 basehttp 27500 9676 "GET /lectures/many_fields_form/ HTTP/1.1" 200 1624
+INFO 2023-09-07 18:56:49,974 autoreload 27500 11068 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 18:56:50,407 autoreload 10656 22800 Watching for file changes with StatReloader
+INFO 2023-09-07 18:56:51,643 basehttp 10656 33084 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2245
+INFO 2023-09-07 18:58:14,999 basehttp 10656 33084 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2307
+WARNING 2023-09-07 18:58:15,018 basehttp 10656 33084 "GET /static/css/bootstrap.css HTTP/1.1" 404 1810
+INFO 2023-09-07 18:58:18,401 autoreload 11140 30340 Watching for file changes with StatReloader
+INFO 2023-09-07 18:58:19,632 basehttp 11140 35344 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2307
+INFO 2023-09-07 18:58:19,688 basehttp 11140 35344 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+INFO 2023-09-07 18:58:21,578 basehttp 11140 35344 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2307
+INFO 2023-09-07 18:58:21,592 basehttp 11140 35344 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+WARNING 2023-09-07 18:58:21,671 log 11140 35344 Not Found: /favicon.ico
+WARNING 2023-09-07 18:58:21,671 basehttp 11140 35344 "GET /favicon.ico HTTP/1.1" 404 3930
+INFO 2023-09-07 18:58:37,437 basehttp 11140 35344 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2366
+INFO 2023-09-07 19:00:28,860 autoreload 11140 30340 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 19:00:29,293 autoreload 22272 36608 Watching for file changes with StatReloader
+INFO 2023-09-07 19:00:31,299 basehttp 22272 27868 "GET /lectures/many_fields_form/ HTTP/1.1" 200 2366
+INFO 2023-09-07 19:05:27,417 autoreload 22272 36608 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 19:05:27,847 autoreload 32840 34396 Watching for file changes with StatReloader
+INFO 2023-09-07 19:08:07,683 autoreload 32840 34396 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\models.py changed, reloading.
+INFO 2023-09-07 19:08:08,117 autoreload 32648 35404 Watching for file changes with StatReloader
+INFO 2023-09-07 19:15:31,492 autoreload 31280 19792 Watching for file changes with StatReloader
+INFO 2023-09-07 19:15:36,289 basehttp 31280 34364 "GET /lectures/add_user HTTP/1.1" 301 0
+INFO 2023-09-07 19:15:36,302 basehttp 31280 37224 "GET /lectures/add_user/ HTTP/1.1" 200 1054
+INFO 2023-09-07 19:15:43,444 basehttp 31280 37224 "POST /lectures/add_user/ HTTP/1.1" 200 1201
+INFO 2023-09-07 19:15:52,388 views 31280 37224 Получили name='1234', email='sushkoos@vk.team', age=24
+INFO 2023-09-07 19:15:52,394 basehttp 31280 37224 "POST /lectures/add_user/ HTTP/1.1" 200 1103
+INFO 2023-09-07 19:16:54,242 autoreload 31280 19792 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:16:54,679 autoreload 35752 25840 Watching for file changes with StatReloader
+INFO 2023-09-07 19:16:55,886 views 35752 28016 Получили name='1234', email='sushkoos@vk.team', age=24
+INFO 2023-09-07 19:16:55,905 basehttp 35752 28016 "POST /lectures/add_user/ HTTP/1.1" 200 1103
+INFO 2023-09-07 19:17:01,206 autoreload 35752 25840 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:17:01,692 autoreload 12548 19744 Watching for file changes with StatReloader
+INFO 2023-09-07 19:17:02,819 basehttp 12548 23204 "GET /lectures/add_user/ HTTP/1.1" 200 1054
+INFO 2023-09-07 19:17:24,324 autoreload 12548 19744 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\urls.py changed, reloading.
+INFO 2023-09-07 19:17:24,755 autoreload 25144 14344 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:17:27,452 log 25144 24524 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-09-07 19:17:27,454 basehttp 25144 24524 "GET /lectures/add_user_class/ HTTP/1.1" 500 98026
+INFO 2023-09-07 19:18:20,084 autoreload 25144 14344 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 19:18:20,521 autoreload 5512 19620 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:18:22,545 log 5512 4824 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-09-07 19:18:22,546 basehttp 5512 4824 "GET /lectures/add_user_class/ HTTP/1.1" 500 98163
+INFO 2023-09-07 19:19:16,822 autoreload 5512 19620 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 19:19:17,252 autoreload 9744 36028 Watching for file changes with StatReloader
+INFO 2023-09-07 19:19:24,258 autoreload 320 37804 Watching for file changes with StatReloader
+INFO 2023-09-07 19:20:02,933 autoreload 35072 1732 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:20:04,813 log 35072 24848 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\forms\models.py", line 350, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2023-09-07 19:20:04,814 basehttp 35072 24848 "GET /lectures/add_user_class/ HTTP/1.1" 500 104133
+ERROR 2023-09-07 19:20:11,242 log 35072 24848 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\forms\models.py", line 350, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2023-09-07 19:20:11,244 basehttp 35072 24848 "GET /lectures/add_user_class/ HTTP/1.1" 500 104133
+INFO 2023-09-07 19:20:11,442 autoreload 35072 1732 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\forms.py changed, reloading.
+INFO 2023-09-07 19:20:11,897 autoreload 11008 34848 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:20:12,236 log 11008 31236 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lecture_app/usermodel_form.html
+ERROR 2023-09-07 19:20:12,237 basehttp 11008 31236 "GET /lectures/add_user_class/ HTTP/1.1" 500 90429
+INFO 2023-09-07 19:20:32,524 autoreload 11008 34848 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:20:32,962 autoreload 35648 29532 Watching for file changes with StatReloader
+INFO 2023-09-07 19:20:33,227 basehttp 35648 25444 "GET /lectures/add_user_class/ HTTP/1.1" 200 1054
+ERROR 2023-09-07 19:20:42,633 log 35648 25444 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserModel' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-07 19:20:42,636 basehttp 35648 25444 "POST /lectures/add_user_class/ HTTP/1.1" 500 107646
+ERROR 2023-09-07 19:22:07,136 log 35648 25444 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserModel' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-07 19:22:07,138 basehttp 35648 25444 "POST /lectures/add_user_class/ HTTP/1.1" 500 107646
+INFO 2023-09-07 19:22:11,410 autoreload 30796 37440 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:22:13,377 log 30796 13468 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserModel' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-07 19:22:13,379 basehttp 30796 13468 "POST /lectures/add_user_class/ HTTP/1.1" 500 107646
+INFO 2023-09-07 19:23:06,689 autoreload 30796 37440 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:23:07,116 autoreload 29284 21496 Watching for file changes with StatReloader
+INFO 2023-09-07 19:25:01,178 autoreload 29284 21496 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:25:01,608 autoreload 23316 35780 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:25:06,392 log 23316 16708 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 83, in get_success_url
+    return reverse('add_user_class')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: reverse expected 2 arguments, got 1
+ERROR 2023-09-07 19:25:06,394 basehttp 23316 16708 "POST /lectures/add_user_class/ HTTP/1.1" 500 101875
+INFO 2023-09-07 19:25:42,674 autoreload 23316 35780 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:25:43,115 autoreload 37492 35632 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:25:43,607 log 37492 19920 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 83, in get_success_url
+    return reverse('lecture_app:add_user_class')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: reverse expected 2 arguments, got 1
+ERROR 2023-09-07 19:25:43,609 basehttp 37492 19920 "POST /lectures/add_user_class/ HTTP/1.1" 500 101923
+INFO 2023-09-07 19:26:00,675 autoreload 37492 35632 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:26:01,119 autoreload 34848 5116 Watching for file changes with StatReloader
+ERROR 2023-09-07 19:26:01,395 log 34848 2756 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py", line 83, in get_success_url
+    return reverse('lecture_app:add_user_class', kwargs={})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: audioop.reverse() takes no keyword arguments
+ERROR 2023-09-07 19:26:01,397 basehttp 34848 2756 "POST /lectures/add_user_class/ HTTP/1.1" 500 102003
+INFO 2023-09-07 19:26:06,471 autoreload 34848 5116 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:26:06,889 autoreload 24788 35084 Watching for file changes with StatReloader
+INFO 2023-09-07 19:27:33,554 autoreload 24788 35084 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:27:34,026 autoreload 14724 4268 Watching for file changes with StatReloader
+INFO 2023-09-07 19:27:37,405 basehttp 14724 37328 "POST /lectures/add_user_class/ HTTP/1.1" 302 0
+WARNING 2023-09-07 19:27:37,417 log 14724 37328 Not Found: /lectures/add_user_class/lecture_app:add_user_class
+WARNING 2023-09-07 19:27:37,417 basehttp 14724 37328 "GET /lectures/add_user_class/lecture_app:add_user_class HTTP/1.1" 404 5042
+INFO 2023-09-07 19:27:38,468 basehttp 14724 37328 "GET /lectures/add_user_class/ HTTP/1.1" 200 1055
+INFO 2023-09-07 19:27:51,975 basehttp 14724 37328 "POST / HTTP/1.1" 200 467
+INFO 2023-09-07 19:28:02,303 basehttp 14724 37328 "POST / HTTP/1.1" 200 467
+INFO 2023-09-07 19:28:06,671 autoreload 24524 24400 Watching for file changes with StatReloader
+INFO 2023-09-07 19:28:09,391 basehttp 24524 27936 "POST / HTTP/1.1" 200 467
+INFO 2023-09-07 19:28:11,234 basehttp 24524 27936 "GET /lectures/add_user_class/ HTTP/1.1" 200 1054
+INFO 2023-09-07 19:28:17,448 basehttp 24524 27936 "POST /lectures/add_user_class/ HTTP/1.1" 302 0
+WARNING 2023-09-07 19:28:17,459 log 24524 27936 Not Found: /lectures/add_user_class/lecture_app:add_user_class
+WARNING 2023-09-07 19:28:17,459 basehttp 24524 27936 "GET /lectures/add_user_class/lecture_app:add_user_class HTTP/1.1" 404 5042
+INFO 2023-09-07 19:28:34,532 autoreload 24524 24400 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:28:34,962 autoreload 29336 9532 Watching for file changes with StatReloader
+INFO 2023-09-07 19:28:50,524 autoreload 29336 9532 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:28:50,995 autoreload 19620 32856 Watching for file changes with StatReloader
+INFO 2023-09-07 19:29:15,495 autoreload 19620 32856 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:29:15,909 autoreload 28516 4200 Watching for file changes with StatReloader
+WARNING 2023-09-07 19:29:17,298 log 28516 31236 Not Found: /lectures/add_user_class/lecture_app:add_user_class
+WARNING 2023-09-07 19:29:17,299 basehttp 28516 31236 "GET /lectures/add_user_class/lecture_app:add_user_class HTTP/1.1" 404 5042
+INFO 2023-09-07 19:29:18,821 basehttp 28516 31236 "GET /lectures/add_user_class/ HTTP/1.1" 200 1054
+INFO 2023-09-07 19:29:26,728 basehttp 28516 31236 "POST /lectures/add_user_class/ HTTP/1.1" 302 0
+INFO 2023-09-07 19:29:26,733 basehttp 28516 31236 "GET / HTTP/1.1" 200 467
+INFO 2023-09-07 19:29:45,866 autoreload 28516 4200 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:29:46,297 autoreload 22168 29672 Watching for file changes with StatReloader
+INFO 2023-09-07 19:29:48,740 basehttp 22168 33848 "POST /lectures/add_user_class/ HTTP/1.1" 302 0
+WARNING 2023-09-07 19:29:48,751 log 22168 33848 Not Found: /lectures/add_user_class/add_user_class/
+WARNING 2023-09-07 19:29:48,751 basehttp 22168 33848 "GET /lectures/add_user_class/add_user_class/ HTTP/1.1" 404 5009
+INFO 2023-09-07 19:29:54,813 autoreload 22168 29672 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:29:55,235 autoreload 19028 37124 Watching for file changes with StatReloader
+WARNING 2023-09-07 19:29:56,973 log 19028 24524 Not Found: /lectures/add_user_class/add_user_class/
+WARNING 2023-09-07 19:29:56,974 basehttp 19028 24524 "GET /lectures/add_user_class/add_user_class/ HTTP/1.1" 404 5009
+INFO 2023-09-07 19:29:58,116 basehttp 19028 24524 "GET /lectures/add_user_class/ HTTP/1.1" 200 1054
+INFO 2023-09-07 19:30:04,320 basehttp 19028 24524 "POST /lectures/add_user_class/ HTTP/1.1" 302 0
+WARNING 2023-09-07 19:30:04,328 log 19028 24524 Not Found: /lectures/add_user_class/add_user_class
+WARNING 2023-09-07 19:30:04,328 basehttp 19028 24524 "GET /lectures/add_user_class/add_user_class HTTP/1.1" 404 5006
+INFO 2023-09-07 19:30:11,971 autoreload 19028 37124 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:30:12,397 autoreload 30684 17716 Watching for file changes with StatReloader
+INFO 2023-09-07 19:30:14,527 basehttp 30684 24400 "GET /lectures/add_user_class/ HTTP/1.1" 200 1054
+ERROR 2023-09-07 19:30:20,270 log 30684 24400 Internal Server Error: /lectures/add_user_class/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserModel' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-07 19:30:20,273 basehttp 30684 24400 "POST /lectures/add_user_class/ HTTP/1.1" 500 107645
+INFO 2023-09-07 19:30:58,672 autoreload 30684 17716 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:30:59,095 autoreload 13324 20324 Watching for file changes with StatReloader
+INFO 2023-09-07 19:31:46,877 autoreload 13324 20324 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:31:47,400 autoreload 36580 30740 Watching for file changes with StatReloader
+INFO 2023-09-07 19:32:09,841 autoreload 36580 30740 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 19:32:10,262 autoreload 21548 348 Watching for file changes with StatReloader
+INFO 2023-09-07 20:00:45,667 autoreload 21548 348 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-07 20:00:46,150 autoreload 19152 16764 Watching for file changes with StatReloader
+INFO 2023-09-07 20:01:27,508 basehttp 19152 37284 "GET /lectures/add_user/ HTTP/1.1" 200 1054
+INFO 2023-09-07 20:01:35,084 basehttp 19152 37284 "GET /lectures/add_user/ HTTP/1.1" 200 1054
+INFO 2023-09-07 20:01:35,897 basehttp 19152 37284 "GET /lectures/add_user/ HTTP/1.1" 200 1120
+INFO 2023-09-07 20:01:52,054 basehttp 19152 37284 "GET /lectures/add_user/ HTTP/1.1" 200 1163
