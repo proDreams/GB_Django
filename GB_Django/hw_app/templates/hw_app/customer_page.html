@@ -1,0 +1,12 @@
+{% extends 'seminar_app/base.html' %}
+
+{% block content %}
+    <h1>Customer: {{ customer }}</h1>
+
+    <p>Посмотреть заказы:</p>
+    <a href="{% url 'hw_app:yearly_orders' year=current_date|date:'Y' pk=customer.pk %}">За год</a>
+    <a href="{% url 'hw_app:monthly_orders' year=current_date|date:'Y' month=current_date|date:'m' pk=customer.pk %}">За
+        месяц</a>
+    <a href="{% url 'hw_app:weekly_orders' year=current_date|date:'Y' week=current_date|date:'W' pk=customer.pk %}">За
+        неделю</a>
+{% endblock %}
