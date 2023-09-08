@@ -2,8 +2,9 @@ from random import randint
 
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.views.generic import TemplateView, DetailView
+from django.views.generic import TemplateView, DetailView, CreateView
 
+from seminar_app import models, forms
 from seminar_app.models import GameModel, Author, Post
 
 
@@ -97,3 +98,21 @@ def authors(request):
     for i in res:
         res1 += str(i) + '<br>'
     return HttpResponse(f'{res1}')
+
+
+class AddAuthor(CreateView):
+    model = models.Author
+    template_name = 'seminar_app/add_author.html'
+    form_class = forms.AddAuthorForm
+
+
+class AuthorPage(DetailView):
+    model = models.Author
+    template_name = 'seminar_app/author_page.html'
+
+
+class AddPost(CreateView):
+    model = models.Post
+    template_name = 'seminar_app/add_post.html'
+    form_class = forms.AddPostForm
+
