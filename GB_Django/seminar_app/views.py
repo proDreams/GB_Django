@@ -6,6 +6,7 @@ from django.views.generic import TemplateView, DetailView, CreateView
 
 from seminar_app import models, forms
 from seminar_app.models import GameModel, Author, Post
+from seminar_app.forms import ChooseGameForm
 
 
 def index(request):
@@ -116,3 +117,28 @@ class AddPost(CreateView):
     template_name = 'seminar_app/add_post.html'
     form_class = forms.AddPostForm
 
+
+class Games(TemplateView):
+    template_name = 'seminar_app/game_choose.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['form'] = ChooseGameForm()
+        context['results'] = kwargs.get('results', [])
+        return context
+
+    def post(self, request, *args, **kwargs):
+        form = ChooseGameForm(request.POST)
+        results = []
+        if form.is_valid():
+            match form.cleaned_data.get('game'):
+                case 'dice':
+                    for _ in range(form.cleaned_data.get('count')):
+                        results.append(randint(1, 6))
+                case 'rand_number':
+                    for _ in range(form.cleaned_data.get('count')):
+                        results.append(randint(1, 1000))
+                case 'heads_tails':
+                    for _ in range(form.cleaned_data.get('count')):
+                        results.append(('TAILS', 'HEADS')[randint(0, 1)])
+        return self.get(request, *args, **kwargs, results=results)

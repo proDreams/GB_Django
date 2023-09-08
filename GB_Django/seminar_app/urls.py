@@ -17,4 +17,5 @@ urlpatterns = [
     path('add_author/', views.AddAuthor.as_view(), name='add_author'),
     path('author_page/<int:pk>', views.AuthorPage.as_view(), name='author_page'),
     path('article/add', views.AddPost.as_view(), name='add_post'),
+    path('games/', views.Games.as_view(), name='games'),
 ]

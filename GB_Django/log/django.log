@@ -6750,3 +6750,81 @@ INFO 2023-09-09 00:27:49,973 basehttp 40132 40784 "GET /homeworks/customer/2/ HT
 INFO 2023-09-09 00:27:52,144 basehttp 40132 40784 "GET /homeworks/orders/year/2023/2/ HTTP/1.1" 200 822
 INFO 2023-09-09 00:27:53,561 basehttp 40132 40784 "GET /homeworks/orders/monthly/2023/09/2/ HTTP/1.1" 200 822
 INFO 2023-09-09 00:27:54,705 basehttp 40132 40784 "GET /homeworks/orders/week/2023/36/2/ HTTP/1.1" 200 822
+INFO 2023-09-09 00:54:06,408 autoreload 40132 34760 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 00:54:06,846 autoreload 40076 9640 Watching for file changes with StatReloader
+INFO 2023-09-09 00:56:27,458 autoreload 40076 9640 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:56:27,896 autoreload 42732 39904 Watching for file changes with StatReloader
+INFO 2023-09-09 00:56:55,671 autoreload 42732 39904 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:56:56,099 autoreload 25712 11116 Watching for file changes with StatReloader
+INFO 2023-09-09 00:57:31,798 autoreload 25712 11116 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:57:32,681 autoreload 45296 11932 Watching for file changes with StatReloader
+INFO 2023-09-09 00:57:54,225 autoreload 45296 11932 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:57:54,651 autoreload 41220 36012 Watching for file changes with StatReloader
+INFO 2023-09-09 00:58:24,205 autoreload 41220 36012 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:58:24,693 autoreload 40820 40564 Watching for file changes with StatReloader
+INFO 2023-09-09 00:58:40,229 autoreload 40820 40564 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:58:40,731 autoreload 42548 33684 Watching for file changes with StatReloader
+INFO 2023-09-09 00:59:04,381 autoreload 42548 33684 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:59:04,808 autoreload 39200 40984 Watching for file changes with StatReloader
+INFO 2023-09-09 00:59:21,341 autoreload 39200 40984 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 00:59:21,837 autoreload 3476 24688 Watching for file changes with StatReloader
+INFO 2023-09-09 01:04:08,821 autoreload 3476 24688 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\views.py changed, reloading.
+INFO 2023-09-09 01:04:09,301 autoreload 42032 45484 Watching for file changes with StatReloader
+INFO 2023-09-09 01:05:03,458 autoreload 42032 45484 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:05:03,896 autoreload 9612 36420 Watching for file changes with StatReloader
+INFO 2023-09-09 01:06:20,489 autoreload 9612 36420 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:06:20,917 autoreload 22580 27196 Watching for file changes with StatReloader
+INFO 2023-09-09 01:07:08,985 autoreload 22580 27196 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:07:09,421 autoreload 44680 41968 Watching for file changes with StatReloader
+INFO 2023-09-09 01:07:14,357 basehttp 44680 39456 "GET /games HTTP/1.1" 301 0
+INFO 2023-09-09 01:07:14,424 basehttp 44680 42544 "GET /games/ HTTP/1.1" 200 1435
+INFO 2023-09-09 01:07:46,403 autoreload 44680 41968 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:07:46,833 autoreload 22428 34604 Watching for file changes with StatReloader
+INFO 2023-09-09 01:08:02,202 autoreload 22428 34604 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:08:02,639 autoreload 45916 41300 Watching for file changes with StatReloader
+INFO 2023-09-09 01:08:05,833 autoreload 45916 41300 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:08:06,260 autoreload 42664 3220 Watching for file changes with StatReloader
+INFO 2023-09-09 01:08:21,648 autoreload 42664 3220 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:08:22,084 autoreload 40800 26136 Watching for file changes with StatReloader
+INFO 2023-09-09 01:08:31,351 autoreload 40800 26136 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:08:31,827 autoreload 36232 5460 Watching for file changes with StatReloader
+INFO 2023-09-09 01:08:32,048 basehttp 36232 33620 "GET /games/ HTTP/1.1" 200 1088
+INFO 2023-09-09 01:08:37,688 basehttp 36232 33620 "POST /games/ HTTP/1.1" 200 1088
+INFO 2023-09-09 01:08:59,263 basehttp 36232 33620 "POST /games/ HTTP/1.1" 200 1095
+INFO 2023-09-09 01:09:03,608 basehttp 36232 33620 "POST /games/ HTTP/1.1" 200 1095
+INFO 2023-09-09 01:09:06,864 basehttp 36232 33620 "POST /games/ HTTP/1.1" 200 1095
+INFO 2023-09-09 01:09:15,031 basehttp 36232 33620 "POST /games/ HTTP/1.1" 200 1095
+INFO 2023-09-09 01:09:33,166 autoreload 36232 5460 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:09:33,629 autoreload 8000 13120 Watching for file changes with StatReloader
+INFO 2023-09-09 01:09:39,579 basehttp 8000 39096 "POST /games/ HTTP/1.1" 200 1095
+INFO 2023-09-09 01:09:57,440 autoreload 8000 13120 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:09:57,878 autoreload 27196 22580 Watching for file changes with StatReloader
+INFO 2023-09-09 01:09:58,563 basehttp 27196 44216 "POST /games/ HTTP/1.1" 200 1679
+INFO 2023-09-09 01:10:02,112 basehttp 27196 44216 "POST /games/ HTTP/1.1" 200 1133
+INFO 2023-09-09 01:10:05,569 basehttp 27196 44216 "POST /games/ HTTP/1.1" 200 1731
+INFO 2023-09-09 01:10:54,091 autoreload 27196 22580 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 01:10:54,581 autoreload 21912 19036 Watching for file changes with StatReloader
+INFO 2023-09-09 01:10:55,259 basehttp 21912 39472 "POST /games/ HTTP/1.1" 200 2093
+INFO 2023-09-09 01:11:00,080 basehttp 21912 39472 "POST /games/ HTTP/1.1" 200 2053
+INFO 2023-09-09 01:11:03,072 basehttp 21912 39472 "POST /games/ HTTP/1.1" 200 2145
+INFO 2023-09-09 01:12:11,190 autoreload 21912 19036 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:12:11,629 autoreload 18104 41740 Watching for file changes with StatReloader
+INFO 2023-09-09 01:12:12,289 basehttp 18104 45380 "POST /games/ HTTP/1.1" 200 2062
+INFO 2023-09-09 01:12:48,516 autoreload 18104 41740 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:12:48,973 autoreload 45248 14460 Watching for file changes with StatReloader
+INFO 2023-09-09 01:13:05,353 autoreload 45248 14460 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:13:05,785 autoreload 39692 44404 Watching for file changes with StatReloader
+INFO 2023-09-09 01:13:05,942 basehttp 39692 22320 "POST /games/ HTTP/1.1" 200 2226
+INFO 2023-09-09 01:13:20,325 autoreload 39692 44404 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:13:20,772 autoreload 38584 1960 Watching for file changes with StatReloader
+INFO 2023-09-09 01:13:21,529 basehttp 38584 30316 "POST /games/ HTTP/1.1" 200 2220
+INFO 2023-09-09 01:13:44,475 autoreload 38584 1960 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:13:45,032 autoreload 45264 27964 Watching for file changes with StatReloader
+INFO 2023-09-09 01:13:47,299 basehttp 45264 45544 "POST /games/ HTTP/1.1" 200 2223
+INFO 2023-09-09 01:13:55,627 autoreload 45264 27964 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:13:56,056 autoreload 42056 12852 Watching for file changes with StatReloader
+INFO 2023-09-09 01:13:58,670 basehttp 42056 41012 "POST /games/ HTTP/1.1" 200 2218
+INFO 2023-09-09 01:14:33,047 autoreload 42056 12852 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 01:14:33,509 autoreload 35740 40344 Watching for file changes with StatReloader
+INFO 2023-09-09 01:14:35,524 basehttp 35740 9596 "POST /games/ HTTP/1.1" 200 2221
+INFO 2023-09-09 01:16:12,905 basehttp 35740 9596 "POST /games/ HTTP/1.1" 200 2792

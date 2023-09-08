@@ -1,5 +1,4 @@
 import logging
-from audioop import reverse
 
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -79,3 +78,4 @@ class AddUser(CreateView):
     form_class = UserForm
     template_name = 'lecture_app/user_form.html'
     success_url = '/'
+
