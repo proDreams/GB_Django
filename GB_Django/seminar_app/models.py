@@ -58,3 +58,15 @@ class Post(models.Model):
 
     def __str__(self):
         return f'{self.author} - {self.title} - {self.publish}'
+
+
+class CommentModel(models.Model):
+    post = models.ForeignKey('Post',
+                             on_delete=models.CASCADE,
+                             verbose_name='Статья')
+    comment = models.TextField(verbose_name='Добавить комментарий')
+    created_at = models.DateTimeField(auto_now_add=True,
+                                      verbose_name='Добавлен')
+
+    def __str__(self):
+        return f'Комментарий к статье {self.post}'

@@ -6,7 +6,7 @@ from django.views.generic import TemplateView, DetailView, CreateView
 
 from seminar_app import models, forms
 from seminar_app.models import GameModel, Author, Post
-from seminar_app.forms import ChooseGameForm
+from seminar_app.forms import ChooseGameForm, AddCommentForm
 
 
 def index(request):
@@ -70,11 +70,30 @@ class ArticlePage(DetailView):
     template_name = 'seminar_app/article_page.html'
     context_object_name = 'post'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['comments'] = models.CommentModel.objects.filter(post=self.get_object())
+        context['form'] = AddCommentForm()
+        return context
+
     def get_object(self, queryset=None):
         obj = super().get_object(queryset=queryset)
         obj.views += 1
         obj.save()
         return obj
+
+    def post(self, request, *args, **kwargs):
+        post = models.Post.objects.get(pk=self.kwargs['pk'])
+        form = AddCommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return self.get(request, *args, **kwargs)
+        else:
+            context = self.get_context_data(**kwargs)
+            context['form'] = form
+            return render(request, self.template_name, context)
 
 
 def heads(request):

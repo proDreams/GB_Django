@@ -22,3 +22,11 @@ class ChooseGameForm(forms.Form):
     count = forms.IntegerField(min_value=1,
                                max_value=64,
                                widget=forms.NumberInput(attrs={'class': 'form-control'}))
+
+
+class AddCommentForm(forms.ModelForm):
+    comment = forms.CharField(widget=forms.Textarea(attrs={'class': 'form-control'}))
+
+    class Meta:
+        model = models.CommentModel
+        fields = ['comment']

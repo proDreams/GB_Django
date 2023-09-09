@@ -2,5 +2,24 @@
 {% block title %}{{ post.title }}{% endblock %}
 
 {% block content %}
-    <p>{{ post.title }}</p>
+    <div class="col-6">
+        <p>{{ post.title }}</p>
+        <p>{{ post.post }}</p>
+        <hr>
+        {#    {% if user.is_authenticated %}#}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Добавить комментарий">
+        </form>
+        {#    {% endif %}#}
+        <hr>
+        {% if comments %}
+            {% for comment in comments %}
+                <p>{{ comment.created_at }} | {{ comment.comment }}</p>
+            {% endfor %}
+        {% else %}
+            <p>Нет комментариев</p>
+        {% endif %}
+    </div>
 {% endblock %}

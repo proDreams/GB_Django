@@ -6828,3 +6828,317 @@ INFO 2023-09-09 01:14:33,047 autoreload 42056 12852 C:\Users\proDream\PycharmPro
 INFO 2023-09-09 01:14:33,509 autoreload 35740 40344 Watching for file changes with StatReloader
 INFO 2023-09-09 01:14:35,524 basehttp 35740 9596 "POST /games/ HTTP/1.1" 200 2221
 INFO 2023-09-09 01:16:12,905 basehttp 35740 9596 "POST /games/ HTTP/1.1" 200 2792
+INFO 2023-09-09 08:58:27,946 autoreload 35740 40344 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-09 08:58:28,441 autoreload 31124 14792 Watching for file changes with StatReloader
+INFO 2023-09-09 08:59:44,966 autoreload 31124 14792 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-09 08:59:45,397 autoreload 24196 14460 Watching for file changes with StatReloader
+INFO 2023-09-09 09:03:03,868 autoreload 24196 14460 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-09 09:03:04,311 autoreload 43392 28856 Watching for file changes with StatReloader
+INFO 2023-09-09 09:04:41,152 autoreload 43392 28856 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 09:04:41,599 autoreload 36360 29848 Watching for file changes with StatReloader
+INFO 2023-09-09 09:05:05,252 autoreload 36360 29848 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 09:05:05,719 autoreload 43680 40664 Watching for file changes with StatReloader
+INFO 2023-09-09 09:08:22,184 autoreload 43680 40664 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:08:22,642 autoreload 4244 40928 Watching for file changes with StatReloader
+INFO 2023-09-09 09:08:37,161 autoreload 4244 40928 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:08:37,581 autoreload 45676 39180 Watching for file changes with StatReloader
+INFO 2023-09-09 09:08:48,045 autoreload 45676 39180 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:08:48,467 autoreload 39588 19904 Watching for file changes with StatReloader
+INFO 2023-09-09 09:09:03,007 autoreload 39588 19904 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:09:03,481 autoreload 3108 19820 Watching for file changes with StatReloader
+INFO 2023-09-09 09:11:55,597 autoreload 3108 19820 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:12:03,850 autoreload 43960 45684 Watching for file changes with StatReloader
+INFO 2023-09-09 09:12:06,170 basehttp 43960 14012 "GET / HTTP/1.1" 200 502
+INFO 2023-09-09 09:12:12,762 basehttp 43960 14012 "GET /articles/1 HTTP/1.1" 200 1060
+INFO 2023-09-09 09:12:15,826 basehttp 43960 14012 "GET /article/1 HTTP/1.1" 200 539
+INFO 2023-09-09 09:15:05,369 basehttp 43960 14012 "GET /article/1 HTTP/1.1" 200 1006
+WARNING 2023-09-09 09:15:12,190 base 43960 14012 Method Not Allowed (POST): /article/1
+WARNING 2023-09-09 09:15:12,190 log 43960 14012 Method Not Allowed: /article/1
+WARNING 2023-09-09 09:15:12,190 basehttp 43960 14012 "POST /article/1 HTTP/1.1" 405 0
+INFO 2023-09-09 09:15:17,162 basehttp 43960 14012 "GET /article/1 HTTP/1.1" 200 1006
+INFO 2023-09-09 09:15:52,979 autoreload 43960 45684 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 09:15:53,395 autoreload 37172 36456 Watching for file changes with StatReloader
+INFO 2023-09-09 09:16:19,923 autoreload 37172 36456 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 09:16:20,334 autoreload 41980 45176 Watching for file changes with StatReloader
+INFO 2023-09-09 09:16:23,009 basehttp 41980 34024 "GET /article/1 HTTP/1.1" 200 993
+INFO 2023-09-09 09:17:40,011 autoreload 41980 45176 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\forms.py changed, reloading.
+INFO 2023-09-09 09:17:40,458 autoreload 11856 23916 Watching for file changes with StatReloader
+INFO 2023-09-09 09:17:43,052 basehttp 11856 35668 "GET /article/1 HTTP/1.1" 200 995
+INFO 2023-09-09 09:18:01,184 basehttp 11856 35668 "GET /article/1 HTTP/1.1" 200 995
+INFO 2023-09-09 09:18:03,866 basehttp 11856 35668 "GET /article/1 HTTP/1.1" 200 1073
+INFO 2023-09-09 09:19:03,224 autoreload 11856 23916 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:19:03,652 autoreload 41684 41472 Watching for file changes with StatReloader
+INFO 2023-09-09 09:19:09,908 autoreload 41684 41472 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\views.py changed, reloading.
+INFO 2023-09-09 09:19:10,457 autoreload 35924 36420 Watching for file changes with StatReloader
+INFO 2023-09-09 09:20:52,763 autoreload 31552 22604 Watching for file changes with StatReloader
+INFO 2023-09-09 09:20:54,807 basehttp 31552 23736 "GET /article/1 HTTP/1.1" 200 1073
+ERROR 2023-09-09 09:21:07,311 log 31552 23736 Internal Server Error: /article/1
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py", line 72, in __str__
+    return f'Комментарий от {self.author} в уроке {self.post}'
+                             ^^^^^^^^^^^
+AttributeError: 'CommentModel' object has no attribute 'author'
+ERROR 2023-09-09 09:21:07,315 basehttp 31552 23736 "POST /article/1 HTTP/1.1" 500 188902
+INFO 2023-09-09 09:21:47,147 autoreload 31552 22604 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-09 09:21:47,575 autoreload 21188 7144 Watching for file changes with StatReloader
+INFO 2023-09-09 09:21:49,368 basehttp 21188 7300 "GET /article/1 HTTP/1.1" 200 1143
+INFO 2023-09-09 09:22:04,416 basehttp 21188 7300 "POST /article/1 HTTP/1.1" 200 1251
+INFO 2023-09-09 09:22:14,799 basehttp 21188 7300 "POST /article/1 HTTP/1.1" 200 1252
+INFO 2023-09-09 09:22:24,128 basehttp 21188 7300 "POST /article/1 HTTP/1.1" 200 1307
+INFO 2023-09-09 09:22:44,706 basehttp 21188 7300 "GET /article/1 HTTP/1.1" 200 1447
+INFO 2023-09-09 09:25:10,466 autoreload 21188 7144 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:25:10,910 autoreload 9696 41380 Watching for file changes with StatReloader
+INFO 2023-09-09 09:25:17,285 autoreload 9696 41380 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:25:17,782 autoreload 36644 8004 Watching for file changes with StatReloader
+INFO 2023-09-09 09:25:45,506 autoreload 36644 8004 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:25:45,946 autoreload 37920 44508 Watching for file changes with StatReloader
+INFO 2023-09-09 09:28:45,134 autoreload 37920 44508 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:28:45,593 autoreload 41280 35408 Watching for file changes with StatReloader
+INFO 2023-09-09 09:29:59,044 autoreload 41280 35408 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\urls.py changed, reloading.
+INFO 2023-09-09 09:29:59,461 autoreload 42564 39720 Watching for file changes with StatReloader
+INFO 2023-09-09 09:32:47,487 autoreload 42564 39720 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:32:47,922 autoreload 10252 34892 Watching for file changes with StatReloader
+INFO 2023-09-09 09:33:13,663 basehttp 10252 35296 "GET /homeworks/product/1 HTTP/1.1" 301 0
+INFO 2023-09-09 09:33:13,674 basehttp 10252 37528 "GET /homeworks/product/1/ HTTP/1.1" 200 559
+INFO 2023-09-09 09:33:16,389 basehttp 10252 37528 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:35:36,098 autoreload 10252 34892 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:35:36,537 autoreload 38792 38300 Watching for file changes with StatReloader
+INFO 2023-09-09 09:35:43,803 autoreload 38792 38300 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:35:44,234 autoreload 43764 27108 Watching for file changes with StatReloader
+INFO 2023-09-09 09:35:56,743 autoreload 43764 27108 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:35:57,169 autoreload 40928 9596 Watching for file changes with StatReloader
+INFO 2023-09-09 09:36:17,610 autoreload 40928 9596 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:36:18,021 autoreload 44216 9728 Watching for file changes with StatReloader
+INFO 2023-09-09 09:36:37,626 autoreload 44216 9728 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:36:38,033 autoreload 37272 43956 Watching for file changes with StatReloader
+INFO 2023-09-09 09:36:39,899 basehttp 37272 22172 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:36:41,741 basehttp 37272 22172 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:36:47,608 autoreload 37272 43956 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:36:48,022 autoreload 42500 37264 Watching for file changes with StatReloader
+INFO 2023-09-09 09:36:48,310 basehttp 42500 39624 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:37:21,847 autoreload 42500 37264 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:37:22,330 autoreload 40104 37976 Watching for file changes with StatReloader
+INFO 2023-09-09 09:37:36,691 autoreload 40104 37976 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:37:37,100 autoreload 45252 39896 Watching for file changes with StatReloader
+INFO 2023-09-09 09:37:38,674 basehttp 45252 536 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:37:39,659 basehttp 45252 536 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1552
+INFO 2023-09-09 09:37:39,715 basehttp 45252 536 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+WARNING 2023-09-09 09:37:39,951 log 45252 536 Not Found: /favicon.ico
+WARNING 2023-09-09 09:37:39,952 basehttp 45252 536 "GET /favicon.ico HTTP/1.1" 404 4642
+INFO 2023-09-09 09:40:11,082 autoreload 45252 39896 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:40:11,563 autoreload 42820 38892 Watching for file changes with StatReloader
+INFO 2023-09-09 09:40:37,075 autoreload 42820 38892 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:40:37,478 autoreload 34096 34200 Watching for file changes with StatReloader
+ERROR 2023-09-09 09:40:38,117 log 34096 30364 Internal Server Error: /homeworks/update_product/1/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 204, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'ProductUpdateForm' object is not callable
+ERROR 2023-09-09 09:40:38,119 basehttp 34096 30364 "GET /homeworks/update_product/1/ HTTP/1.1" 500 98474
+INFO 2023-09-09 09:40:50,994 autoreload 34096 34200 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\views.py changed, reloading.
+INFO 2023-09-09 09:40:51,433 autoreload 30848 16900 Watching for file changes with StatReloader
+INFO 2023-09-09 09:40:51,750 basehttp 30848 34148 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1573
+INFO 2023-09-09 09:42:18,171 autoreload 30848 16900 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\forms.py changed, reloading.
+INFO 2023-09-09 09:42:18,583 autoreload 41272 33540 Watching for file changes with StatReloader
+INFO 2023-09-09 09:42:20,877 basehttp 41272 26856 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1707
+ERROR 2023-09-09 09:42:37,029 log 41272 26856 Internal Server Error: /homeworks/update_product/1/
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 208, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proDream\PycharmProjects\iuriigavProject\GB_Django\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-09 09:42:37,031 basehttp 41272 26856 "POST /homeworks/update_product/1/ HTTP/1.1" 500 108108
+INFO 2023-09-09 09:43:28,270 autoreload 41272 33540 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\models.py changed, reloading.
+INFO 2023-09-09 09:43:28,734 autoreload 40608 20980 Watching for file changes with StatReloader
+INFO 2023-09-09 09:43:30,317 basehttp 40608 40436 "GET /homeworks/product/1/ HTTP/1.1" 200 564
+INFO 2023-09-09 09:43:31,726 basehttp 40608 40436 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1712
+INFO 2023-09-09 09:43:38,201 basehttp 40608 40436 "POST /homeworks/update_product/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 09:43:38,206 basehttp 40608 40436 "GET /homeworks/product/1/ HTTP/1.1" 200 567
+INFO 2023-09-09 09:43:39,497 basehttp 40608 40436 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1715
+INFO 2023-09-09 09:45:05,735 autoreload 40608 20980 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\models.py changed, reloading.
+INFO 2023-09-09 09:45:06,157 autoreload 36704 40256 Watching for file changes with StatReloader
+INFO 2023-09-09 09:46:19,625 autoreload 36704 40256 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\forms.py changed, reloading.
+INFO 2023-09-09 09:46:20,033 autoreload 18008 41264 Watching for file changes with StatReloader
+INFO 2023-09-09 09:46:50,747 autoreload 18008 41264 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\forms.py changed, reloading.
+INFO 2023-09-09 09:46:51,164 autoreload 33352 44840 Watching for file changes with StatReloader
+INFO 2023-09-09 09:47:09,166 autoreload 5400 36828 Watching for file changes with StatReloader
+INFO 2023-09-09 09:47:12,946 basehttp 5400 42652 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1872
+INFO 2023-09-09 09:47:36,611 basehttp 5400 42652 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1872
+INFO 2023-09-09 09:47:37,005 autoreload 5400 36828 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\models.py changed, reloading.
+INFO 2023-09-09 09:47:37,434 autoreload 8004 41688 Watching for file changes with StatReloader
+INFO 2023-09-09 09:47:38,040 basehttp 8004 43672 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1889
+INFO 2023-09-09 09:47:44,544 basehttp 8004 43672 "GET /homeworks/product/1/ HTTP/1.1" 200 624
+WARNING 2023-09-09 09:47:44,577 log 8004 43672 Not Found: /default.png
+WARNING 2023-09-09 09:47:44,577 basehttp 8004 43672 "GET /default.png HTTP/1.1" 404 4642
+INFO 2023-09-09 09:47:45,889 basehttp 8004 43672 "GET /homeworks/product/1/ HTTP/1.1" 200 624
+WARNING 2023-09-09 09:47:45,908 log 8004 43672 Not Found: /default.png
+WARNING 2023-09-09 09:47:45,908 basehttp 8004 43672 "GET /default.png HTTP/1.1" 404 4642
+INFO 2023-09-09 09:47:47,690 basehttp 8004 43672 "GET /homeworks/product/1/ HTTP/1.1" 200 624
+WARNING 2023-09-09 09:47:47,708 log 8004 7352 Not Found: /default.png
+WARNING 2023-09-09 09:47:47,709 basehttp 8004 7352 "GET /default.png HTTP/1.1" 404 4642
+INFO 2023-09-09 09:47:47,741 basehttp 8004 43672 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+WARNING 2023-09-09 09:47:47,982 log 8004 43672 Not Found: /favicon.ico
+WARNING 2023-09-09 09:47:47,983 basehttp 8004 43672 "GET /favicon.ico HTTP/1.1" 404 4642
+INFO 2023-09-09 09:48:23,469 autoreload 8004 41688 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\settings.py changed, reloading.
+INFO 2023-09-09 09:48:23,897 autoreload 36316 34308 Watching for file changes with StatReloader
+INFO 2023-09-09 09:48:24,645 basehttp 36316 40944 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+WARNING 2023-09-09 09:48:24,664 log 36316 40944 Not Found: /media/default.png
+WARNING 2023-09-09 09:48:24,664 basehttp 36316 40944 "GET /media/default.png HTTP/1.1" 404 4660
+INFO 2023-09-09 09:48:26,055 basehttp 36316 40944 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+WARNING 2023-09-09 09:48:26,073 log 36316 3960 Not Found: /media/default.png
+WARNING 2023-09-09 09:48:26,073 basehttp 36316 3960 "GET /media/default.png HTTP/1.1" 404 4660
+INFO 2023-09-09 09:48:26,100 basehttp 36316 40944 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+WARNING 2023-09-09 09:48:26,166 log 36316 40944 Not Found: /favicon.ico
+WARNING 2023-09-09 09:48:26,167 basehttp 36316 40944 "GET /favicon.ico HTTP/1.1" 404 4642
+WARNING 2023-09-09 09:48:31,400 log 36316 40944 Not Found: /media/default.png
+WARNING 2023-09-09 09:48:31,400 basehttp 36316 40944 "GET /media/default.png HTTP/1.1" 404 4660
+INFO 2023-09-09 09:49:00,794 autoreload 36316 34308 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\GB_Django\urls.py changed, reloading.
+INFO 2023-09-09 09:49:01,212 autoreload 42676 38176 Watching for file changes with StatReloader
+INFO 2023-09-09 09:49:01,378 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+INFO 2023-09-09 09:49:01,425 basehttp 42676 40684 "GET /media/default.png HTTP/1.1" 200 6458
+INFO 2023-09-09 09:49:06,146 basehttp 42676 40684 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1889
+INFO 2023-09-09 09:49:22,219 basehttp 42676 40684 "POST /homeworks/update_product/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 09:49:22,225 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+INFO 2023-09-09 09:49:23,701 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+INFO 2023-09-09 09:49:39,832 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 630
+INFO 2023-09-09 09:49:41,532 basehttp 42676 40684 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1919
+INFO 2023-09-09 09:49:44,925 basehttp 42676 40684 "POST /homeworks/update_product/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 09:49:44,930 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 682
+INFO 2023-09-09 09:49:44,954 basehttp 42676 40684 "GET /media/product_image/19655-091602-ae5051e1d3c5550027601cacf4ca7bab.jpg HTTP/1.1" 200 20032
+INFO 2023-09-09 09:49:55,108 basehttp 42676 40684 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1919
+INFO 2023-09-09 09:50:08,610 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 682
+INFO 2023-09-09 09:50:08,634 basehttp 42676 40684 "GET /media/product_image/19655-091602-ae5051e1d3c5550027601cacf4ca7bab.jpg HTTP/1.1" 304 0

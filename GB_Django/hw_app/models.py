@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Customer(models.Model):
@@ -21,8 +22,14 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField(default=0)
     added_at = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='product_image',
+                              default='default.png',
+                              verbose_name='Изображение')
 
     objects = models.Manager()
+
+    def get_absolute_url(self):
+        return reverse('hw_app:product_page', kwargs={'pk': self.pk})
 
     def __str__(self):
         return self.title

@@ -1,0 +1,8 @@
+{% extends 'seminar_app/base.html' %}
+
+{% block content %}
+    <img src="{{ product.image.url }}" alt="{{ product.title }}">
+    <p>{{ product.title }}</p>
+    <p>{{ product.description }}</p>
+    <a href="{% url 'hw_app:update_product' product.pk %}">Редактировать товар</a>
+{% endblock %}

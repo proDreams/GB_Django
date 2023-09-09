@@ -2,11 +2,10 @@ import logging
 from datetime import datetime
 
 from django.http import HttpResponse
-from django.shortcuts import get_object_or_404
-from django.views.generic import DetailView
+from django.views.generic import DetailView, UpdateView
 from django.views.generic.dates import MonthArchiveView, WeekArchiveView, ArchiveIndexView, YearArchiveView
 
-from hw_app import models
+from hw_app import models, forms
 
 logger = logging.getLogger(__name__)
 
@@ -66,3 +65,14 @@ class AllMonthProducts(AllProducts, MonthArchiveView):
 
 class AllWeekProducts(AllProducts, WeekArchiveView):
     pass
+
+
+class UpdateProductView(UpdateView):
+    model = models.Product
+    template_name = 'hw_app/update_product.html'
+    form_class = forms.ProductUpdateForm
+
+
+class ProductView(DetailView):
+    model = models.Product
+    template_name = 'hw_app/product_page.html'
