@@ -6,8 +6,10 @@ from django.urls import reverse
 
 
 class GameModel(models.Model):
-    result = models.CharField(max_length=10)
-    played = models.DateTimeField(auto_now_add=True)
+    result = models.CharField(max_length=10,
+                              verbose_name='Результат')
+    played = models.DateTimeField(auto_now_add=True,
+                                  verbose_name='Дата игры')
 
     objects = Manager()
 
@@ -23,11 +25,17 @@ class GameModel(models.Model):
 
 
 class Author(models.Model):
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    email = models.EmailField()
-    bio = models.TextField()
-    dob = models.DateField()
+    first_name = models.CharField(max_length=100,
+                                  verbose_name='Имя')
+    last_name = models.CharField(max_length=100,
+                                 verbose_name='Фамилия')
+    email = models.EmailField(verbose_name='Email')
+    bio = models.TextField(verbose_name='Биография')
+    dob = models.DateField(verbose_name='Дата рождения')
+    rating = models.DecimalField(default=5,
+                                 verbose_name='Рейтинг',
+                                 max_digits=5,
+                                 decimal_places=2)
 
     objects = Manager()
 
@@ -43,13 +51,20 @@ class Category(models.Model):
 
 
 class Post(models.Model):
-    title = models.CharField(max_length=200)
-    post = models.TextField(max_length=1000)
-    publish_date = models.DateField(auto_now_add=True)
-    author = models.ForeignKey(Author, on_delete=models.CASCADE)
-    category = models.ForeignKey(Category, on_delete=models.DO_NOTHING)
-    views = models.IntegerField(default=0)
-    publish = models.BooleanField(default=False)
+    title = models.CharField(max_length=200,
+                             verbose_name='Заголовок')
+    post = models.TextField(max_length=1000,
+                            verbose_name='Статья')
+    publish_date = models.DateField(auto_now_add=True,
+                                    verbose_name='Дата публикации')
+    author = models.ForeignKey(Author, on_delete=models.CASCADE,
+                               verbose_name='Автор')
+    category = models.ForeignKey(Category, on_delete=models.DO_NOTHING,
+                                 verbose_name='Категория')
+    views = models.IntegerField(default=0,
+                                verbose_name='Просмотры')
+    publish = models.BooleanField(default=False,
+                                  verbose_name='Опубликовано?')
 
     objects = Manager()
 

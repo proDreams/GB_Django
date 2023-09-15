@@ -24,6 +24,7 @@ urlpatterns = [
     path('lectures/', include('lecture_app.urls', namespace='lecture_app')),
     path('homeworks/', include('hw_app.urls', namespace='hw_app')),
     path('', include('seminar_app.urls', namespace='seminar_app')),
+    path("__debug__/", include("debug_toolbar.urls")),
 ]
 
 if settings.DEBUG:

@@ -7142,3 +7142,333 @@ INFO 2023-09-09 09:49:44,954 basehttp 42676 40684 "GET /media/product_image/1965
 INFO 2023-09-09 09:49:55,108 basehttp 42676 40684 "GET /homeworks/update_product/1/ HTTP/1.1" 200 1919
 INFO 2023-09-09 09:50:08,610 basehttp 42676 40684 "GET /homeworks/product/1/ HTTP/1.1" 200 682
 INFO 2023-09-09 09:50:08,634 basehttp 42676 40684 "GET /media/product_image/19655-091602-ae5051e1d3c5550027601cacf4ca7bab.jpg HTTP/1.1" 304 0
+INFO 2023-09-11 19:19:30,273 autoreload 1536 27196 Watching for file changes with StatReloader
+INFO 2023-09-11 19:19:31,332 basehttp 1536 2520 "GET / HTTP/1.1" 200 502
+INFO 2023-09-11 19:19:35,885 basehttp 1536 2520 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-11 19:19:35,895 basehttp 1536 2520 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3228
+INFO 2023-09-11 19:19:36,084 basehttp 1536 2520 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2023-09-11 19:19:36,087 basehttp 1536 2520 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2023-09-11 19:19:36,094 basehttp 1536 43144 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2023-09-11 19:19:36,098 basehttp 1536 23568 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2023-09-11 19:19:36,100 basehttp 1536 42488 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2023-09-11 19:19:36,106 basehttp 1536 19712 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2023-09-11 19:19:36,143 basehttp 1536 41888 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-11 19:19:36,202 basehttp 1536 41888 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2023-09-11 19:45:30,162 autoreload 45672 38068 Watching for file changes with StatReloader
+INFO 2023-09-11 19:45:53,357 basehttp 45672 21660 "GET / HTTP/1.1" 200 502
+INFO 2023-09-11 19:45:53,449 basehttp 45672 21660 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+INFO 2023-09-11 19:45:58,847 basehttp 45672 21660 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-11 19:45:58,856 basehttp 45672 45100 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-11 19:45:58,863 basehttp 45672 45100 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3228
+INFO 2023-09-11 19:45:58,872 basehttp 45672 45100 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2023-09-11 19:45:58,881 basehttp 45672 44268 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2023-09-11 19:45:58,883 basehttp 45672 19716 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2023-09-11 19:45:58,884 basehttp 45672 32040 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2023-09-11 19:45:58,885 basehttp 45672 46308 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2023-09-11 19:45:58,887 basehttp 45672 26796 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-11 19:45:58,889 basehttp 45672 44268 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2023-09-11 19:45:58,893 basehttp 45672 45100 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2023-09-11 19:45:58,985 basehttp 45672 45100 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2023-09-11 20:06:22,468 autoreload 40524 39480 Watching for file changes with StatReloader
+INFO 2023-09-11 20:06:28,318 basehttp 40524 25552 "GET / HTTP/1.1" 200 502
+INFO 2023-09-11 20:06:31,652 basehttp 40524 25552 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-11 20:06:31,660 basehttp 40524 25552 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3228
+INFO 2023-09-11 20:06:31,697 basehttp 40524 25552 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,698 basehttp 40524 19264 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,699 basehttp 40524 44336 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,699 basehttp 40524 46584 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,702 basehttp 40524 37896 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,702 basehttp 40524 46872 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:31,753 basehttp 40524 46872 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:06:36,273 basehttp 40524 46872 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-11 20:06:36,309 basehttp 40524 46872 "GET /admin/ HTTP/1.1" 200 11435
+INFO 2023-09-11 20:06:36,363 basehttp 40524 46872 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2023-09-11 20:06:36,388 basehttp 40524 46872 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+INFO 2023-09-11 20:10:41,375 autoreload 40524 39480 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 20:10:41,866 autoreload 31800 41856 Watching for file changes with StatReloader
+INFO 2023-09-11 20:11:45,648 autoreload 31800 41856 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 20:11:46,268 autoreload 37388 16848 Watching for file changes with StatReloader
+INFO 2023-09-11 20:11:48,417 basehttp 37388 21348 "GET /admin/ HTTP/1.1" 200 20332
+INFO 2023-09-11 20:11:48,438 basehttp 37388 21348 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,438 basehttp 37388 19504 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,438 basehttp 37388 38416 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,439 basehttp 37388 35968 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,445 basehttp 37388 35968 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,445 basehttp 37388 19504 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,446 basehttp 37388 38416 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,481 basehttp 37388 38416 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:11:48,482 basehttp 37388 19504 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,164 basehttp 37388 36312 "GET /admin/auth/group/ HTTP/1.1" 200 14135
+INFO 2023-09-11 20:29:08,182 basehttp 37388 36312 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,184 basehttp 37388 36312 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,191 basehttp 37388 30036 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,191 basehttp 37388 30244 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,205 basehttp 37388 46212 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:29:08,356 basehttp 37388 40744 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2023-09-11 20:29:08,368 basehttp 37388 36312 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-11 20:29:08,368 basehttp 37388 44688 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-11 20:29:08,370 basehttp 37388 40744 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-11 20:29:08,375 basehttp 37388 30244 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-11 20:29:08,375 basehttp 37388 30036 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-11 20:29:08,376 basehttp 37388 46212 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-11 20:29:08,382 basehttp 37388 30244 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,386 basehttp 37388 30244 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,390 basehttp 37388 30244 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,395 basehttp 37388 30244 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2023-09-11 20:29:08,402 basehttp 37388 30244 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2023-09-11 20:29:08,420 basehttp 37388 36312 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-11 20:29:08,460 basehttp 37388 30244 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:29:08,460 basehttp 37388 36312 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:35:37,598 autoreload 37388 16848 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\admin.py changed, reloading.
+INFO 2023-09-11 20:35:38,063 autoreload 38072 32688 Watching for file changes with StatReloader
+INFO 2023-09-11 20:36:17,265 autoreload 38072 32688 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\admin.py changed, reloading.
+INFO 2023-09-11 20:36:17,744 autoreload 23184 43584 Watching for file changes with StatReloader
+INFO 2023-09-11 20:36:20,077 basehttp 23184 41888 "GET /admin/auth/group/ HTTP/1.1" 200 18739
+INFO 2023-09-11 20:36:20,093 basehttp 23184 41888 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,095 basehttp 23184 41888 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,102 basehttp 23184 43220 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,102 basehttp 23184 36688 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,102 basehttp 23184 40528 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,106 basehttp 23184 39588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:36:20,113 basehttp 23184 39588 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,133 basehttp 23184 36688 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,134 basehttp 23184 39588 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,142 basehttp 23184 39588 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,142 basehttp 23184 36688 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,164 basehttp 23184 36688 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:20,164 basehttp 23184 39588 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:21,262 basehttp 23184 39588 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 42356
+INFO 2023-09-11 20:36:21,288 basehttp 23184 40528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:36:21,363 basehttp 23184 39588 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-11 20:36:21,364 basehttp 23184 36688 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-11 20:36:21,372 basehttp 23184 36688 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:21,372 basehttp 23184 39588 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:21,379 basehttp 23184 39588 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-11 20:36:21,831 basehttp 23184 39588 "GET /admin/ HTTP/1.1" 200 36135
+INFO 2023-09-11 20:36:51,048 autoreload 23184 43584 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\apps.py changed, reloading.
+INFO 2023-09-11 20:36:51,492 autoreload 14464 16800 Watching for file changes with StatReloader
+INFO 2023-09-11 20:36:52,824 autoreload 14464 16800 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\hw_app\apps.py changed, reloading.
+INFO 2023-09-11 20:36:53,242 autoreload 10532 45244 Watching for file changes with StatReloader
+INFO 2023-09-11 20:37:12,644 autoreload 10532 45244 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\lecture_app\apps.py changed, reloading.
+INFO 2023-09-11 20:37:13,017 autoreload 29104 40936 Watching for file changes with StatReloader
+INFO 2023-09-11 20:38:15,194 autoreload 39904 14736 Watching for file changes with StatReloader
+INFO 2023-09-11 20:38:17,229 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:07,008 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:39,116 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:40,789 basehttp 39904 29052 "GET /admin/seminar_app/category/ HTTP/1.1" 200 22149
+INFO 2023-09-11 20:40:40,812 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:42,248 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:43,446 basehttp 39904 29052 "GET /admin/seminar_app/gamemodel/ HTTP/1.1" 200 27598
+INFO 2023-09-11 20:40:43,474 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:45,089 basehttp 39904 29052 "GET /admin/seminar_app/gamemodel/18/change/ HTTP/1.1" 200 20372
+INFO 2023-09-11 20:40:45,109 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:46,266 basehttp 39904 29052 "GET /admin/seminar_app/gamemodel/ HTTP/1.1" 200 27598
+INFO 2023-09-11 20:40:47,670 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:48,975 basehttp 39904 29052 "GET /admin/seminar_app/post/ HTTP/1.1" 200 29349
+INFO 2023-09-11 20:40:49,002 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:50,383 basehttp 39904 29052 "GET /admin/seminar_app/post/27/change/ HTTP/1.1" 200 28191
+INFO 2023-09-11 20:40:50,402 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:51,238 basehttp 39904 29052 "GET /admin/seminar_app/post/ HTTP/1.1" 200 29349
+INFO 2023-09-11 20:40:51,486 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 20:40:53,285 basehttp 39904 29052 "GET /admin/seminar_app/commentmodel/ HTTP/1.1" 200 22085
+INFO 2023-09-11 20:40:53,313 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:54,088 basehttp 39904 29052 "GET /admin/seminar_app/commentmodel/4/change/ HTTP/1.1" 200 24156
+INFO 2023-09-11 20:40:54,108 basehttp 39904 29052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 20:40:54,874 basehttp 39904 29052 "GET /admin/seminar_app/commentmodel/ HTTP/1.1" 200 22085
+INFO 2023-09-11 20:40:55,119 basehttp 39904 29052 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 21:02:24,440 autoreload 39904 14736 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:02:24,897 autoreload 27252 38224 Watching for file changes with StatReloader
+INFO 2023-09-11 21:03:01,621 autoreload 27252 38224 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:03:02,104 autoreload 27468 27236 Watching for file changes with StatReloader
+INFO 2023-09-11 21:16:47,944 autoreload 27468 27236 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:16:48,408 autoreload 24400 43664 Watching for file changes with StatReloader
+INFO 2023-09-11 21:17:01,834 autoreload 24400 43664 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:17:02,315 autoreload 3516 15372 Watching for file changes with StatReloader
+INFO 2023-09-11 21:17:39,050 autoreload 3516 15372 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:17:39,477 autoreload 18940 38204 Watching for file changes with StatReloader
+INFO 2023-09-11 21:18:30,364 autoreload 18940 38204 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:18:30,881 autoreload 29844 21508 Watching for file changes with StatReloader
+INFO 2023-09-11 21:19:17,747 autoreload 29844 21508 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:19:18,248 autoreload 30684 28200 Watching for file changes with StatReloader
+INFO 2023-09-11 21:19:55,991 autoreload 30684 28200 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:19:56,535 autoreload 14108 28044 Watching for file changes with StatReloader
+INFO 2023-09-11 21:44:33,846 autoreload 14108 28044 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:44:34,387 autoreload 44956 25852 Watching for file changes with StatReloader
+INFO 2023-09-11 21:45:25,302 autoreload 44956 25852 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:45:25,766 autoreload 19888 38540 Watching for file changes with StatReloader
+INFO 2023-09-11 21:45:54,380 autoreload 19888 38540 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\models.py changed, reloading.
+INFO 2023-09-11 21:45:54,842 autoreload 38780 4664 Watching for file changes with StatReloader
+INFO 2023-09-11 21:47:00,860 autoreload 1220 24092 Watching for file changes with StatReloader
+INFO 2023-09-11 21:47:05,844 basehttp 1220 21396 "GET /admin/ HTTP/1.1" 200 36265
+INFO 2023-09-11 21:47:05,863 basehttp 1220 21396 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,865 basehttp 1220 34940 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,865 basehttp 1220 10060 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,866 basehttp 1220 2256 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,877 basehttp 1220 34940 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,877 basehttp 1220 10060 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,878 basehttp 1220 2256 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,909 basehttp 1220 2256 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:05,922 basehttp 1220 2256 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:34,090 autoreload 1220 24092 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\apps.py changed, reloading.
+INFO 2023-09-11 21:47:34,662 autoreload 46364 40640 Watching for file changes with StatReloader
+INFO 2023-09-11 21:47:34,926 basehttp 46364 24032 "GET /admin/ HTTP/1.1" 200 36285
+INFO 2023-09-11 21:47:38,414 basehttp 46364 24032 "GET /admin/seminar_app/author/ HTTP/1.1" 200 22445
+INFO 2023-09-11 21:47:38,439 basehttp 46364 24032 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:38,448 basehttp 46364 42024 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:47:38,483 basehttp 46364 42024 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:38,483 basehttp 46364 24032 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2023-09-11 21:47:39,692 basehttp 46364 24032 "GET /admin/seminar_app/author/6/change/ HTTP/1.1" 200 25158
+INFO 2023-09-11 21:47:39,722 basehttp 46364 24032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:48:21,190 autoreload 46364 40640 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:48:21,650 autoreload 32272 40524 Watching for file changes with StatReloader
+INFO 2023-09-11 21:48:36,064 autoreload 32272 40524 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:48:36,585 autoreload 27108 23200 Watching for file changes with StatReloader
+INFO 2023-09-11 21:48:57,090 autoreload 27108 23200 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:48:57,551 autoreload 32344 25332 Watching for file changes with StatReloader
+INFO 2023-09-11 21:50:56,387 autoreload 32344 25332 C:\Users\proDream\PycharmProjects\GB_Django\GB_Django\seminar_app\admin.py changed, reloading.
+INFO 2023-09-11 21:50:56,834 autoreload 38004 45968 Watching for file changes with StatReloader
+INFO 2023-09-11 21:50:59,811 basehttp 38004 39856 "GET /admin/seminar_app/author/6/change/ HTTP/1.1" 200 25284
+INFO 2023-09-11 21:50:59,908 basehttp 38004 39856 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:51:09,337 basehttp 38004 39856 "GET /admin/auth/user/ HTTP/1.1" 200 25392
+INFO 2023-09-11 21:51:09,355 basehttp 38004 39856 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:51:09,421 basehttp 38004 39856 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-11 21:51:11,088 basehttp 38004 39856 "GET /admin/auth/user/add/ HTTP/1.1" 200 22800
+INFO 2023-09-11 21:51:11,153 basehttp 38004 39856 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:51:19,494 basehttp 38004 39856 "GET /admin/auth/user/ HTTP/1.1" 200 25392
+INFO 2023-09-11 21:59:12,768 basehttp 38004 19660 "GET /admin/lecture_app/author/ HTTP/1.1" 200 23924
+INFO 2023-09-11 21:59:12,794 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:59:14,609 basehttp 38004 19660 "GET /admin/lecture_app/order/ HTTP/1.1" 200 18427
+INFO 2023-09-11 21:59:14,634 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:59:15,165 basehttp 38004 19660 "GET /admin/lecture_app/post/ HTTP/1.1" 200 52926
+INFO 2023-09-11 21:59:15,184 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:59:15,769 basehttp 38004 19660 "GET /admin/lecture_app/product/ HTTP/1.1" 200 18441
+INFO 2023-09-11 21:59:15,795 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:59:16,649 basehttp 38004 19660 "GET /admin/lecture_app/author/ HTTP/1.1" 200 23924
+INFO 2023-09-11 21:59:16,669 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-11 21:59:17,515 basehttp 38004 19660 "GET /admin/lecture_app/user/ HTTP/1.1" 200 21183
+INFO 2023-09-11 21:59:17,539 basehttp 38004 19660 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-14 18:52:06,285 autoreload 35660 51968 Watching for file changes with StatReloader
+INFO 2023-09-14 18:52:07,488 basehttp 35660 18100 "GET / HTTP/1.1" 200 10282
+INFO 2023-09-14 18:52:07,613 basehttp 35660 51520 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-14 18:52:07,613 basehttp 35660 41444 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-14 18:52:07,613 basehttp 35660 42928 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-14 18:52:07,615 basehttp 35660 18100 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+INFO 2023-09-14 18:52:07,904 basehttp 35660 18100 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-14 18:52:11,108 basehttp 35660 18100 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-14 18:52:11,138 basehttp 35660 42928 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-14 18:52:11,174 basehttp 35660 42928 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13034
+INFO 2023-09-14 18:52:11,216 basehttp 35660 42928 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2023-09-14 18:52:11,221 basehttp 35660 52736 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2023-09-14 18:52:11,224 basehttp 35660 51520 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2023-09-14 18:52:11,226 basehttp 35660 52736 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2023-09-14 18:52:11,232 basehttp 35660 41444 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2023-09-14 18:52:11,244 basehttp 35660 42928 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2023-09-14 18:52:11,247 basehttp 35660 19888 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2023-09-14 18:52:11,265 basehttp 35660 42824 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-14 18:52:11,334 basehttp 35660 42824 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2023-09-14 18:52:17,992 basehttp 35660 42824 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-14 18:52:18,169 basehttp 35660 42824 "GET /admin/ HTTP/1.1" 200 46071
+INFO 2023-09-14 18:52:18,200 basehttp 35660 42824 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2023-09-14 18:52:18,275 basehttp 35660 42824 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+INFO 2023-09-14 18:52:27,238 basehttp 35660 42824 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 18:52:27,252 basehttp 35660 42824 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-14 18:52:27,254 basehttp 35660 42824 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-14 18:52:27,294 basehttp 35660 42824 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-14 18:52:27,307 basehttp 35660 42824 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-14 18:52:33,832 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=HistoryPanel HTTP/1.1" 200 12963
+INFO 2023-09-14 18:52:33,838 basehttp 35660 42824 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-14 18:52:51,777 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-09-14 18:52:59,245 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=SettingsPanel HTTP/1.1" 200 27291
+INFO 2023-09-14 18:53:05,434 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=HeadersPanel HTTP/1.1" 200 5175
+INFO 2023-09-14 18:53:07,787 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=RequestPanel HTTP/1.1" 200 2330
+INFO 2023-09-14 18:53:10,073 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=SQLPanel HTTP/1.1" 200 116336
+INFO 2023-09-14 18:53:17,164 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=3384d1293b424937a20c7747455e66e6&panel_id=TemplatesPanel HTTP/1.1" 200 93192
+INFO 2023-09-14 18:53:19,371 basehttp 35660 42824 "GET /__debug__/template_source/?template=admin/index.html&template_origin=IkM6XFxVc2Vyc1xccHJvRHJlYW1cXFB5Y2hhcm1Qcm9qZWN0c1xcaXVyaWlnYXZQcm9qZWN0XFxHQl9EamFuZ29cXExpYlxcc2l0ZS1wYWNrYWdlc1xcamF6em1pblxcdGVtcGxhdGVzXFxhZG1pblxcaW5kZXguaHRtbCI:1qgnhj:GEoWkqHDMG6VfNIoy28F2oMuZ7VtA_XYSww72XRZtCA HTTP/1.1" 200 8319
+INFO 2023-09-14 18:53:20,297 basehttp 35660 42824 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-14 18:53:20,343 basehttp 35660 42824 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 18:53:21,430 basehttp 35660 42824 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 18:53:22,586 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=20d2e9c9058447e68ee5e83b1dc6709f&panel_id=TemplatesPanel HTTP/1.1" 200 93192
+INFO 2023-09-14 18:53:27,585 basehttp 35660 42824 "GET /__debug__/render_panel/?store_id=20d2e9c9058447e68ee5e83b1dc6709f&panel_id=SignalsPanel HTTP/1.1" 200 2434
+INFO 2023-09-14 18:53:30,640 basehttp 35660 42824 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 18:53:30,656 basehttp 35660 42824 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-14 18:53:30,656 basehttp 35660 19888 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-14 18:53:30,695 basehttp 35660 42824 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-14 18:53:30,706 basehttp 35660 42824 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:17:33,030 basehttp 35660 23536 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 20:17:33,054 basehttp 35660 30036 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:17:33,055 basehttp 35660 42696 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2023-09-14 20:17:33,055 basehttp 35660 23536 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2023-09-14 20:17:33,061 basehttp 35660 25088 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2023-09-14 20:17:33,075 basehttp 35660 51188 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2023-09-14 20:17:33,075 basehttp 35660 51148 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-14 20:17:33,076 basehttp 35660 30036 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2023-09-14 20:17:33,077 basehttp 35660 42696 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2023-09-14 20:17:33,078 basehttp 35660 23536 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-14 20:17:33,340 basehttp 35660 23536 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-14 20:17:33,342 basehttp 35660 30036 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+INFO 2023-09-14 20:17:33,342 basehttp 35660 42696 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2023-09-14 20:17:33,349 basehttp 35660 42696 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:18:36,133 basehttp 35660 42696 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 20:18:45,208 basehttp 35660 42696 "GET /__debug__/render_panel/?store_id=26e3e735ddf24118b53e69ac9f8c2506&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-09-14 20:18:47,565 basehttp 35660 42696 "GET /__debug__/render_panel/?store_id=26e3e735ddf24118b53e69ac9f8c2506&panel_id=SQLPanel HTTP/1.1" 200 116339
+INFO 2023-09-14 20:18:58,809 basehttp 35660 42696 "GET /admin/seminar_app/author/ HTTP/1.1" 200 32266
+INFO 2023-09-14 20:18:58,861 basehttp 35660 42696 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2023-09-14 20:18:58,863 basehttp 35660 42696 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:18:58,870 basehttp 35660 30036 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-14 20:18:58,870 basehttp 35660 23536 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-14 20:18:58,870 basehttp 35660 42696 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:18:58,871 basehttp 35660 25088 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-14 20:18:58,871 basehttp 35660 51188 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-14 20:18:58,872 basehttp 35660 30036 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-14 20:18:58,888 basehttp 35660 51148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-14 20:18:58,930 basehttp 35660 30036 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2023-09-14 20:18:58,948 basehttp 35660 51148 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2023-09-14 20:19:01,422 basehttp 35660 51148 "GET /__debug__/render_panel/?store_id=1fa8962c8f1144d7b1c6892f3d2a558f&panel_id=SQLPanel HTTP/1.1" 200 109312
+INFO 2023-09-14 22:12:30,545 basehttp 35660 20164 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 52247
+INFO 2023-09-14 22:12:30,583 basehttp 35660 30036 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-14 22:12:30,592 basehttp 35660 20164 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-14 22:12:30,593 basehttp 35660 32072 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-14 22:12:30,595 basehttp 35660 50472 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-14 22:12:30,596 basehttp 35660 40492 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-14 22:12:30,608 basehttp 35660 31896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-14 22:12:30,632 basehttp 35660 40492 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-14 22:12:30,632 basehttp 35660 31896 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-14 22:12:30,636 basehttp 35660 31896 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-14 22:12:30,636 basehttp 35660 50472 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-14 22:12:30,649 basehttp 35660 40492 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2023-09-14 22:12:30,702 basehttp 35660 40492 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-14 22:12:30,715 basehttp 35660 40492 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-14 22:12:30,929 basehttp 35660 40492 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-14 22:15:39,430 basehttp 35660 40492 "GET /admin/ HTTP/1.1" 200 46070
+INFO 2023-09-15 19:58:16,693 autoreload 40036 39912 Watching for file changes with StatReloader
+INFO 2023-09-15 19:58:18,103 basehttp 40036 33040 "GET / HTTP/1.1" 200 10282
+INFO 2023-09-15 19:58:18,169 basehttp 40036 33040 "GET /static/css/bootstrap.css HTTP/1.1" 200 287892
+INFO 2023-09-15 19:58:18,174 basehttp 40036 48036 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-15 19:58:18,176 basehttp 40036 52288 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-15 19:58:18,184 basehttp 40036 29740 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-15 19:58:18,386 basehttp 40036 29740 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-15 19:58:21,825 basehttp 40036 29740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-15 19:58:21,861 basehttp 40036 29740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13034
+INFO 2023-09-15 19:58:21,895 basehttp 40036 33040 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2023-09-15 19:58:21,898 basehttp 40036 29740 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2023-09-15 19:58:21,901 basehttp 40036 51016 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2023-09-15 19:58:21,903 basehttp 40036 48036 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2023-09-15 19:58:21,911 basehttp 40036 52288 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2023-09-15 19:58:21,925 basehttp 40036 33040 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2023-09-15 19:58:21,930 basehttp 40036 27388 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2023-09-15 19:58:21,993 basehttp 40036 27388 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2023-09-15 19:58:26,219 basehttp 40036 27388 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-15 19:58:26,384 basehttp 40036 27388 "GET /admin/ HTTP/1.1" 200 46071
+INFO 2023-09-15 19:58:26,411 basehttp 40036 27388 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2023-09-15 19:58:26,474 basehttp 40036 27388 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+INFO 2023-09-15 19:58:30,026 basehttp 40036 27388 "GET /admin/hw_app/customer/ HTTP/1.1" 200 37005
+INFO 2023-09-15 19:58:30,049 basehttp 40036 27388 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2023-09-15 19:58:30,072 basehttp 40036 33040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-15 19:58:30,090 basehttp 40036 33040 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2023-09-15 19:58:30,091 basehttp 40036 27388 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2023-09-15 19:58:33,617 basehttp 40036 27388 "GET /admin/hw_app/order/ HTTP/1.1" 200 37654
+INFO 2023-09-15 19:58:33,653 basehttp 40036 27388 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-15 19:58:35,317 basehttp 40036 27388 "GET /admin/hw_app/product/ HTTP/1.1" 200 37208
+INFO 2023-09-15 19:58:35,366 basehttp 40036 33040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-15 19:58:35,366 basehttp 40036 27388 "GET /media/default.png HTTP/1.1" 200 6458
+INFO 2023-09-15 19:58:35,385 basehttp 40036 33040 "GET /media/product_image/19655-091602-ae5051e1d3c5550027601cacf4ca7bab.jpg HTTP/1.1" 200 20032

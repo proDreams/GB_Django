@@ -10,6 +10,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -19,6 +20,7 @@ INSTALLED_APPS = [
     'lecture_app.apps.LectureAppConfig',
     'hw_app.apps.HwAppConfig',
     'seminar_app.apps.SeminarAppConfig',
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
@@ -29,6 +31,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 ROOT_URLCONF = 'GB_Django.urls'
@@ -122,3 +125,18 @@ LOGGING = {
         },
     },
 }
+
+# Админпанель
+JAZZMIN_UI_TWEAKS = {
+    "theme": "darkly",
+    "sticky_actions": True,
+    "actions_sticky_top": True,
+}
+JAZZMIN_SETTINGS = {
+    "site_title": "GB Django",
+    "site_brand": "GB Django",
+}
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
